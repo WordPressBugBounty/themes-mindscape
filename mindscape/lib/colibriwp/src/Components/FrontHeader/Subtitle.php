@@ -43,7 +43,7 @@ class Subtitle extends ComponentBase {
 
 				),
 				"{$prefix}localProps.content" => array(
-					'default' => Defaults::get( 'lorem_ipsum' ),
+					'default' => __('Work to live, don\'t live to work, and travel as much as you can along the way.', 'mindscape'),
 					'control' => array(
 						'label'       => Translations::get( 'subtitle' ),
 						'type'        => 'input',

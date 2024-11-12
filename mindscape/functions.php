@@ -128,14 +128,16 @@ mindscape_theme()
 			'width'       => 150,
 			'height'      => 70,
 		)
-	)
-	->register_menus(
-		array(
-			'header-menu' => esc_html__( 'Header Menu', 'mindscape' ),
-			'footer-menu' => esc_html__( 'Footer Menu', 'mindscape' ),
-		)
 	);
 
+add_action('after_setup_theme', function() {
+    mindscape_theme()->register_menus(
+        array(
+            'header-menu' => esc_html__( 'Header Menu', 'mindscape' ),
+            'footer-menu' => esc_html__( 'Footer Menu', 'mindscape' ),
+        )
+    );
+}, 1);
 if ( ! apply_filters( 'kubio_is_enabled', false ) ) {
 	mindscape_assets()
 		->registerTemplateScript(

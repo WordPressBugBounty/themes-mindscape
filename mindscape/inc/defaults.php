@@ -230,11 +230,11 @@ $mindscape_gradients                     = array(
 		),
 
 );
-$mindscape_theme_action_button           = __( 'Let\'s start!', 'mindscape' );
-$mindscape_theme_action_button_secondary = __( 'Read more', 'mindscape' );
+$mindscape_theme_action_button           = 'Let\'s start!';
+$mindscape_theme_action_button_secondary =  'Read more';
 
-$mindscape_theme_click_pen_to_edit_title = __( 'Make each day your masterpiece', 'mindscape' );
-$mindscape_lorem_ipsum                   = __('Work to live, don\'t live to work, and travel as much as you can along the way.', 'mindscape');
+$mindscape_theme_click_pen_to_edit_title = 'Make each day your masterpiece';
+$mindscape_lorem_ipsum                   = 'Work to live, don\'t live to work, and travel as much as you can along the way.';
 
 
 return array(
@@ -674,29 +674,4 @@ return array(
 	'blog_show_post_thumb_placeholder'  => true,
 	'blog_posts_per_row'                => 1,
 	'blog_enable_masonry'               => true,
-	'front_page_designs'                => array(
-		array(
-			'name'    => __( 'Modern', 'mindscape' ),
-			'index'   => 1,
-			'preview' => 'front-page-1.jpg',
-		),
-
-		array(
-			'name'    => __( 'Fullscreen', 'mindscape' ),
-			'index'   => 2,
-			'preview' => 'front-page-2.jpg',
-		),
-
-		array(
-			'name'    => __( 'Classic', 'mindscape' ),
-			'index'   => 3,
-			'preview' => 'front-page-3.jpg',
-		),
-
-		array(
-			'name'    => __( '', 'mindscape' ),
-			'index'   => 4,
-			'preview' => 'admin/ai-icon.svg',
-		),
-	),
 );
