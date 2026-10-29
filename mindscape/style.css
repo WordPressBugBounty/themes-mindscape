@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*! 
  Theme Name:   Mindscape
- Version:      1.0.65
+ Version:      1.0.68
  Description:  Mindscape is an innovative,  easily customizable, multi-purpose theme, focused on empowering users to build astonishing WordPress websites. Mindscape is mainly designed for small businesses, startups, or personal portfolio websites and works perfectly with Kubio Page Builder which enriches the WordPress block editor with a variety of new blocks and advanced styling options to give you full design freedom.
  Author:       Extend Themes
  Author URI:   https://kubiobuilder.com
@@ -121,7 +121,7 @@ html.mindscape-theme optgroup{font-weight:700}
 html.mindscape-theme table{border-collapse:collapse;border-spacing:0}
 html.mindscape-theme td,
 html.mindscape-theme th{padding:0}
-html.mindscape-theme :root{--kubio-system-fonts:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif}
+:root{--kubio-system-fonts:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif}
 html.mindscape-theme *,
 html.mindscape-theme :after,
 html.mindscape-theme :before{box-sizing:inherit}
@@ -149,7 +149,7 @@ html.mindscape-theme .kubio-theme-nav-full-width .h-section-grid-container,
 html.mindscape-theme .kubio-theme-nav-full-width .wp-block-kubio-navigation-section__nav{padding:0 .5rem}}
 html.mindscape-theme .content.page-content{position:relative}
 html.mindscape-theme .shape-layer{background-size:cover}
-html.mindscape-theme :root{--kubio-gap-fallback-half:20}
+:root{--kubio-gap-fallback-half:20}
 html.mindscape-theme body h1>a,
 html.mindscape-theme body h2>a,
 html.mindscape-theme body h3>a,
@@ -181,62 +181,12 @@ html.mindscape-theme .h-hide-xs-force{display:none!important}}
 html.mindscape-theme #start-resizable-kubio-section{display:none}
 html.mindscape-theme #kubio,
 html.mindscape-theme #kubio body{max-width:100%;position:relative}
-html.mindscape-theme body{overflow-x:hidden!important;width:100%}
-html.mindscape-theme article[data-kubio]:after,
-html.mindscape-theme article[data-kubio]:before,
-html.mindscape-theme aside[data-kubio]:after,
-html.mindscape-theme aside[data-kubio]:before,
-html.mindscape-theme details[data-kubio]:after,
-html.mindscape-theme details[data-kubio]:before,
-html.mindscape-theme div[data-kubio]:after,
-html.mindscape-theme div[data-kubio]:before,
-html.mindscape-theme figcaption[data-kubio]:after,
-html.mindscape-theme figcaption[data-kubio]:before,
-html.mindscape-theme figure[data-kubio]:after,
-html.mindscape-theme figure[data-kubio]:before,
-html.mindscape-theme footer[data-kubio]:after,
-html.mindscape-theme footer[data-kubio]:before,
-html.mindscape-theme header[data-kubio]:after,
-html.mindscape-theme header[data-kubio]:before,
-html.mindscape-theme hgroup[data-kubio]:after,
-html.mindscape-theme hgroup[data-kubio]:before,
-html.mindscape-theme menu[data-kubio]:after,
-html.mindscape-theme menu[data-kubio]:before,
-html.mindscape-theme nav[data-kubio]:after,
-html.mindscape-theme nav[data-kubio]:before,
-html.mindscape-theme section[data-kubio]:after,
-html.mindscape-theme section[data-kubio]:before,
-html.mindscape-theme ul[data-kubio]:after,
-html.mindscape-theme ul[data-kubio]:before{content:"";display:table;flex-basis:0;order:1;width:0}
+html.mindscape-theme #kubio body{overflow-x:hidden!important}
 html.mindscape-theme [data-kubio]{-webkit-margin-before:0;-webkit-margin-after:0;margin-block-end:0;margin-block-start:0;outline:0;padding:0}
 html.mindscape-theme [data-kubio],
-html.mindscape-theme [data-kubio] *{-webkit-overflow-scrolling:touch;box-sizing:border-box}
-html.mindscape-theme [data-kubio] article:after,
-html.mindscape-theme [data-kubio] article:before,
-html.mindscape-theme [data-kubio] aside:after,
-html.mindscape-theme [data-kubio] aside:before,
-html.mindscape-theme [data-kubio] details:after,
-html.mindscape-theme [data-kubio] details:before,
-html.mindscape-theme [data-kubio] div:after,
-html.mindscape-theme [data-kubio] div:before,
-html.mindscape-theme [data-kubio] figcaption:after,
-html.mindscape-theme [data-kubio] figcaption:before,
-html.mindscape-theme [data-kubio] figure:after,
-html.mindscape-theme [data-kubio] figure:before,
-html.mindscape-theme [data-kubio] footer:after,
-html.mindscape-theme [data-kubio] footer:before,
-html.mindscape-theme [data-kubio] header:after,
-html.mindscape-theme [data-kubio] header:before,
-html.mindscape-theme [data-kubio] hgroup:after,
-html.mindscape-theme [data-kubio] hgroup:before,
-html.mindscape-theme [data-kubio] menu:after,
-html.mindscape-theme [data-kubio] menu:before,
-html.mindscape-theme [data-kubio] nav:after,
-html.mindscape-theme [data-kubio] nav:before,
-html.mindscape-theme [data-kubio] section:after,
-html.mindscape-theme [data-kubio] section:before,
-html.mindscape-theme [data-kubio] ul:after,
-html.mindscape-theme [data-kubio] ul:before{content:"";display:table;flex-basis:0;order:1;width:0}
+html.mindscape-theme [data-kubio] *,
+html.mindscape-theme [data-kubio] :after,
+html.mindscape-theme [data-kubio] :before{-webkit-overflow-scrolling:touch;box-sizing:border-box}
 html.mindscape-theme [data-kubio] audio,
 html.mindscape-theme [data-kubio] img,
 html.mindscape-theme [data-kubio] video{max-width:100%}
@@ -265,6 +215,8 @@ html.mindscape-theme [data-kubio] .quicktags-toolbar .ed_button{background:#f6f7
 html.mindscape-theme [data-kubio] .quicktags-toolbar .ed_button:focus,
 html.mindscape-theme [data-kubio] .quicktags-toolbar .ed_button:hover{background:#f0f0f1!important;border-color:#0a4b78!important;color:#0a4b78!important}
 html.mindscape-theme [data-kubio] img.emoji{height:1em}
+html.mindscape-theme [data-kubio] summary{display:list-item;list-style:disclosure-closed}
+html.mindscape-theme [data-kubio] details[open] summary{list-style:disclosure-open}
 html.mindscape-theme .h-container{margin-left:auto;margin-right:auto;padding-left:15px;padding-right:15px;width:100%}@media (min-width:576px){
 html.mindscape-theme .h-container{max-width:540px}}@media (min-width:768px){
 html.mindscape-theme .h-container{max-width:720px}}@media (min-width:1024px){
@@ -1161,7 +1113,9 @@ html.mindscape-theme .wp-block[data-align=full]{max-width:unset!important}
 html .h-y-container .wp-block:not([data-kubio]){max-width:100%}
 html.mindscape-theme .h-ignore-global-body-typography.wp-block[data-kubio],
 html.mindscape-theme .h-ignore-global-body-typography.wp-block[data-kubio] [data-kubio]{color:initial;font-size:medium;font-style:normal;letter-spacing:normal;line-height:normal}
-html.mindscape-theme [class*=starter-content-section] .wp-block-image{margin-left:auto!important;margin-right:auto!important}
+html.mindscape-theme .page-template-kubio-full-width :where(.wp-site-blocks)>*{margin-top:0!important}
+html.mindscape-theme [data-kubio] .wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}
+html.mindscape-theme .wp-block-image .hide:not(#extra-1){display:block!important;visibility:hidden}
 html.mindscape-theme .h-svg-icon{fill:currentColor;box-sizing:content-box;display:inline-block;height:16px;line-height:0!important;vertical-align:middle;width:16px}
 html.mindscape-theme .background-wrapper{border-radius:inherit;pointer-events:none;z-index:0}
 html.mindscape-theme .background-layer,
@@ -1197,7 +1151,7 @@ html.mindscape-theme .cp-video-bg.visible video{visibility:visible}
 html.mindscape-theme div.cp-video-bg .wp-custom-header-video{opacity:0;position:absolute;transition:opacity .4s cubic-bezier(.44,.94,.25,.34);width:100%}
 html.mindscape-theme div.cp-video-bg button.wp-custom-header-video-button{display:none}
 html.mindscape-theme .background-video-youtube-blocker{background-color:transparent;height:100%;position:absolute;width:100%;z-index:9999}
-html.mindscape-theme .kubio-video-background:before{background:transparent;bottom:0;content:" ";height:100%;left:0;position:absolute;right:0;top:0;width:100%;z-index:1}
+html.mindscape-theme .kubio-video-background:before{background:transparent;bottom:0;content:" ";display:block;height:100%;left:0;position:absolute;right:0;top:0;width:100%;z-index:1}
 html.mindscape-theme video.kubio-video-background-item{max-width:unset;min-height:100%;min-width:100%;position:relative;width:auto;z-index:0}
 html.mindscape-theme iframe.kubio-video-background-item{max-height:unset;max-width:unset;min-height:unset;min-width:unset;visibility:hidden}
 html.mindscape-theme iframe.kubio-video-background-item.ready{visibility:visible}
@@ -1222,12 +1176,49 @@ html.mindscape-theme .h-hide-sm-force,
 html.mindscape-theme .kubio-hide-on-mobile{display:none!important}}@media (min-width:768px) and (max-width:1023px){
 html.mindscape-theme .kubio-hide-on-tablet{display:none!important}}@media (min-width:1024px){
 html.mindscape-theme .kubio-hide-on-desktop{display:none!important}}
+html.mindscape-theme [data-kubio] .wp-block-accordion{text-align:left}
+html.mindscape-theme [data-kubio] .wp-block-accordion .wp-block-accordion-heading,
+html.mindscape-theme [data-kubio] .wp-block-accordion .wp-block-accordion-panel{width:100%}
+html.mindscape-theme [data-kubio] .wp-block-post-comments-form .wp-block-button__link{height:auto}
+html.mindscape-theme .has-fit-text.wp-block-heading,
+html.mindscape-theme p.has-fit-text{max-width:100%;overflow:hidden;transition:none!important}
+html.mindscape-theme .kubio-iframe .wp-block-icon svg,
+html.mindscape-theme .wp-block-post-featured-image a:not(.extra-1),
+html.mindscape-theme [data-kubio] .wp-block-icon svg{height:auto}
+:root{--old-wp-style-block-gap:var(--wp--style--block-gap)}
+html.mindscape-theme [data-kubio] .wp-block-buttons,
+html.mindscape-theme [data-kubio] .wp-block-gallery{--wp--style--block-gap:var(--old-wp-style-block-gap,1.2rem)}
+html.mindscape-theme [class*=starter-content-section] .wp-block-image{margin-left:auto!important;margin-right:auto!important}
 .kubio-enable-gap-fallback .kubio-has-gap-fallback{--kubio-gap-fallback-half:calc(var(--kubio-gap-fallback)*0.5);gap:0!important;margin:calc(var(--kubio-gap-fallback-half)*-1)!important}
 .kubio-enable-gap-fallback .kubio-has-gap-fallback>*{margin:var(--kubio-gap-fallback-half)!important}
 .kubio-attachment-fixed-support-fallback [data-kubio],
 .kubio-attachment-fixed-support-fallback [data-kubio] [class*=style-]{background-attachment:scroll!important}
+html.mindscape-theme #kubio-language-selector{position:fixed;right:0;top:150px;z-index:12345}
+html.mindscape-theme #kubio-language-selector .--is-editor .kubio-language-selector a,
+html.mindscape-theme #kubio-language-selector .--is-editor .kubio-language-selector select{pointer-events:none}
+html.mindscape-theme #kubio-language-selector .kubio-language-selector{background-color:#fff;border-radius:5px 0 0 5px;box-shadow:0 0 5px #000}
+html.mindscape-theme #kubio-language-selector .kubio-language-selector select{margin:0}
+html.mindscape-theme #kubio-language-selector .kubio-language-selector li{list-style:none;margin-bottom:0}
+html.mindscape-theme #kubio-language-selector .kubio-language-selector .wpml-ls{border:none;padding:0}
+html.mindscape-theme #kubio-language-selector .kubio-language-selector .wpml-ls .wpml-ls-link{padding:0}
+html.mindscape-theme #kubio-language-selector .kubio-language-selector .wpml-ls.wpml-ls-legacy-dropdown-click{width:auto}
+html.mindscape-theme #kubio-language-selector .kubio-language-selector .wpml-ls .wpml-ls-item{padding:14px 18px}
+html.mindscape-theme #kubio-language-selector .kubio-language-selector .wpml-ls .wpml-ls-item:not(.wpml-ls-current-language){display:none}
+html.mindscape-theme #kubio-language-selector .kubio-language-selector .wpml-ls .wpml-ls-item a{line-height:0}
+html.mindscape-theme #kubio-language-selector .kubio-language-selector .wpml-ls .wpml-ls-item a span{display:none}
+html.mindscape-theme #kubio-language-selector .kubio-language-selector .wpml-ls:hover .wpml-ls-item{display:inline-block}
+html.mindscape-theme .single-kubio_recommend_page #wpadminbar{display:none}
+html:has(.single-kubio_recommend_page){margin-top:0!important}
+html.mindscape-theme .kubio-recommendation-page-iframe__wrapper{bottom:0;height:100%;left:0;margin:0!important;max-width:100%!important;opacity:0;pointer-events:none;position:fixed;right:0;top:0;width:100%;z-index:99999999}
+html.mindscape-theme .kubio-recommendation-page-iframe__wrapper iframe{border:none;height:100%;width:100%}
+html.mindscape-theme .kubio-recommendation-page-iframe__wrapper--is-visible{opacity:1;pointer-events:auto;transition:opacity .3s ease-in-out;visibility:visible}
+html.mindscape-theme .kubio-recommendation-page-iframe__wrapper:not(.kubio-recommendation-page-iframe__wrapper--is-visible){z-index:-99999}
+html.mindscape-theme .kubio-recommendation-page-iframe__close{--size:30px;--transition:0.3s ease-in-out;align-items:center;background-color:#1e1e1e;border-radius:100%;color:#fff;cursor:pointer;display:flex;font-size:var(--size);font-weight:500;height:var(--size);justify-content:center;line-height:1;position:absolute;right:40px;top:40px;transition:var(--transition);transition-property:background-color;width:var(--size);z-index:9999999}
+html.mindscape-theme .kubio-recommendation-page-iframe__close svg{fill:currentColor;display:block;height:calc(var(--size)*.6);transition:var(--transition);transition-property:color;width:calc(var(--size)*.6)}@media (max-width:768px){
+html.mindscape-theme .kubio-recommendation-page-iframe__close{right:10px;top:10px}}
+html.mindscape-theme .kubio-recommendation-page-iframe__close:hover{background-color:#fff;color:#333}
 html.mindscape-theme .wp-block-kubio-accordion .wp-block-kubio-accordionitem__title{cursor:pointer;text-align:left;text-decoration:none}
-html.mindscape-theme .wp-block-kubio-accordion .wp-block-kubio-accordionitem__title .wp-block-kubio-accordionitem__titleText{flex:1;order:2;word-break:break-all}
+html.mindscape-theme .wp-block-kubio-accordion .wp-block-kubio-accordionitem__title .wp-block-kubio-accordionitem__titleText{flex:1;order:2;word-break:break-word}
 html.mindscape-theme .wp-block-kubio-accordion .wp-block-kubio-accordionitem__title .h-accordion-item-title-icon{display:inline-flex;height:16px;text-align:center;width:16px}
 html.mindscape-theme .wp-block-kubio-accordion .wp-block-kubio-accordionitem__title .h-accordion-item-title-icon--left{order:1}
 html.mindscape-theme .wp-block-kubio-accordion .wp-block-kubio-accordionitem__title .h-accordion-item-title-icon--right{margin-right:auto;order:3}
@@ -1237,14 +1228,6 @@ html.mindscape-theme .wp-block-kubio-accordion .wp-block-kubio-accordionitem__ti
 html.mindscape-theme .wp-block-kubio-accordion .wp-block-kubio-accordionitem__title.accordion-active~.h-accordion-item-content__container{display:block}
 html.mindscape-theme .wp-block-kubio-accordion .wp-block-kubio-accordionitem__title.accordion-active .h-accordion-item-title-active-icon{display:inline-block}
 html.mindscape-theme .wp-block-kubio-accordion .wp-block-kubio-accordionitem__title.accordion-active .h-accordion-item-title-normal-icon{display:none}
-html.mindscape-theme .breadcrumb-items__wrapper{display:flex}
-html.mindscape-theme .breadcrumb-items__wrapper .breadcrumb-items__prefix{align-items:center;display:inline-flex}
-html.mindscape-theme .breadcrumb-items__wrapper .kubio-breadcrumb{align-items:center;display:inline-flex;flex-wrap:wrap;list-style:none;margin:0;padding:0}
-html.mindscape-theme .breadcrumb-items__wrapper .kubio-breadcrumb>li{align-items:center;display:inline-flex;margin:0;vertical-align:middle}
-html.mindscape-theme .breadcrumb-items__wrapper .kubio-breadcrumb>li+li:before{color:#ccc;content:"/ ";padding:0 5px}
-html.mindscape-theme .breadcrumb-items__wrapper .kubio-breadcrumb>li a{display:inline-flex;line-height:1em!important}
-html.mindscape-theme .breadcrumb-items__wrapper .kubio-breadcrumb>li svg{fill:currentColor;color:currentColor}
-html.mindscape-theme .breadcrumb-items__wrapper .kubio-breadcrumb>li:last-child span{line-height:1em}
 html.mindscape-theme .wp-block-kubio-buttongroup{display:block;width:100%}
 html.mindscape-theme [data-kubio] .wp-block-kubio-buttongroup{display:inline-block}
 html.mindscape-theme .wp-block-kubio-button__outer{display:inline-flex}
@@ -1253,6 +1236,10 @@ html.mindscape-theme .wp-block-kubio-button__link svg{transform:translateY(1px)}
 html.mindscape-theme .wp-block-kubio-button__inner{cursor:pointer;text-decoration:none}
 html.mindscape-theme .wp-block-kubio-button__icon{flex-shrink:0}
 html.mindscape-theme .wp-block-kubio-button__text:empty{display:none}
+html.mindscape-theme .wp-block-kubio-button__inline-fancybox:empty{display:none;visibility:hidden}
+html.mindscape-theme .kubio-recommendation-lightbox__inner-content .wpcf7 input:not([type=file]):not([type=radio]):not([type=checkbox]):not([type=submit]),
+html.mindscape-theme .kubio-recommendation-lightbox__inner-content .wpcf7 select,
+html.mindscape-theme .kubio-recommendation-lightbox__inner-content .wpcf7 textarea{display:block;width:100%}
 html.mindscape-theme .wp-block-kubio-column{max-width:100%;min-width:0}
 html.mindscape-theme .wp-block-kubio-column.masonry-item{transition-duration:0s}
 html.mindscape-theme .wp-block-kubio-column__content .h-heading h1:last-child,
@@ -1292,6 +1279,7 @@ html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpc
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-submit{margin-bottom:16px}
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-response-output{margin:15px 0 0;padding:.2em 1em;text-align:left}
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .screen-reader-response{clip:rect(1px,1px,1px,1px);border:0;height:1px;margin:0;overflow:hidden;padding:0;position:absolute;width:1px}
+html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 fieldset.hidden-fields-container{border:none!important;padding:0!important}
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .ajax-loader{display:none}
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-select{-webkit-appearance:listbox}
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-checkbox .wpcf7-list-item,
@@ -1300,10 +1288,6 @@ html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpc
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-radio .wpcf7-list-item label{text-align:inherit!important}
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-checkbox .wpcf7-list-item label>*,
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-radio .wpcf7-list-item label>*{display:inline-block}
-html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-checkbox .wpcf7-list-item label>input[type=checkbox],
-html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-radio .wpcf7-list-item label>input[type=checkbox]{bottom:0}
-html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-checkbox .wpcf7-list-item label>span,
-html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-radio .wpcf7-list-item label>span{display:initial}
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-checkbox .wpcf7-list-item .wpcf7-list-item-label,
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpcf7 .wpcf7-radio .wpcf7-list-item .wpcf7-list-item-label{margin:auto 8px}
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpforms-container .wpform-error{color:#900!important}
@@ -1343,10 +1327,13 @@ html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style form
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style div.forminator-ui{display:none}
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpforms-confirmation-container-full p,
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpforms-confirmation-container p{color:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit;text-transform:inherit}
+html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style .wpforms-form legend{text-align:left}
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-use-style [type=submit]{cursor:pointer;display:block;margin-left:0;margin-right:auto;text-align:left}
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-no-style{text-align:left}
 html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-no-style form.forminator-ui{display:block!important}
+html.mindscape-theme .wp-block-kubio-contact__formContainer.kubio-no-style .wpcf7 input{max-width:100%}
 html.mindscape-theme .wp-block-kubio-contact__formContainer .wp-block form p{color:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit;text-transform:inherit}
+html.mindscape-theme .wp-block-kubio-copyright p{margin:0}
 html.mindscape-theme .wp-block-kubio-divider{font-size:0!important;line-height:0!important}
 html.mindscape-theme .wp-block-kubio-divider .divider-icon{display:inline-block;flex-grow:0;margin-left:10px;margin-right:10px;vertical-align:middle}
 html.mindscape-theme .wp-block-kubio-divider .divider-icon .h-svg-icon{fill:#03a9f4;height:40px;width:40px}
@@ -1361,22 +1348,6 @@ html.mindscape-theme .h-footer-parallax{bottom:0!important;left:0!important;posi
 html.mindscape-theme .h-footer-parallax-content-class{box-shadow:0 20px 20px -10px rgba(49,52,57,.3),0 20px 30px rgba(0,0,0,.08)}
 html.mindscape-theme .h-footer-parallax-content-class,
 html.mindscape-theme .h-footer-parallax-header-class{background-color:#fff;position:relative;transition-duration:0s!important}
-html.mindscape-theme .kubio-header-color-palette-overlay{-webkit-animation:kubiofadeInAnimation .7s ease;animation:kubiofadeInAnimation .7s ease;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-iteration-count:1;animation-iteration-count:1;background:hsla(0,0%,100%,.8);bottom:0;color:#454545;left:0;position:absolute;right:0;top:0;z-index:9999999}
-html.mindscape-theme .kubio-header-color-palette-overlay__checkbox{display:flex;justify-content:flex-start;width:100%}
-html.mindscape-theme .kubio-header-color-palette-overlay__checkbox label{color:#454545;font-size:13px;line-height:1.6}
-html.mindscape-theme .kubio-header-color-palette-overlay .h-template-lock-controls .components-button-group{justify-content:left;width:100%!important}
-html.mindscape-theme .kubio-header-color-palette-overlay .h-template-lock-controls .components-button-group .components-button{width:auto!important}
-html.mindscape-theme .kubio-header-color-palette-overlay__popup{background:#fff;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;left:50%;max-width:531px;padding:15px;position:absolute;top:50%;transform:translate(-50%,-50%)}
-html.mindscape-theme .kubio-header-color-palette-overlay .kubio-header-color-palette-overlay__popup{border:1px solid #ddd;box-shadow:0 3px 20px rgba(25,30,35,.1);width:467px}
-html.mindscape-theme .kubio-header-color-palette-overlay .kubio-header-color-palette-overlay__popup .h-template-lock-controls__message{color:#454545;font-size:13px}
-html.mindscape-theme .kubio-header-color-palette-overlay .kubio-header-color-palette-overlay__popup .kubio-header-color-palette-list-container{width:100%}
-html.mindscape-theme .kubio-header-color-palette-overlay .kubio-header-color-palette-overlay__popup .kubio-header-color-palette-list-container .kubio-header-color-palette-list{align-items:flex-start;display:flex;padding:9px 0 6px}
-html.mindscape-theme .kubio-header-color-palette-overlay .kubio-header-color-palette-overlay__popup .kubio-header-color-palette-list-container .kubio-header-color-palette-list .colors-scheme-label{background-color:#f0f0f0;border-radius:4px;box-sizing:border-box;color:#454545;flex-grow:0;font-size:13px;font-weight:500;margin-right:20px;max-width:110px;padding:7px;width:100%}
-html.mindscape-theme .kubio-header-color-palette-overlay .kubio-header-color-palette-overlay__popup .kubio-header-color-palette-list-container .kubio-header-color-palette-list .colors-scheme-container{display:inline-flex}
-html.mindscape-theme .kubio-header-color-palette-overlay .kubio-header-color-palette-overlay__popup .kubio-header-color-palette-list-container .kubio-header-color-palette-list .colors-scheme-container .kubio-current-colors-palette{display:flex;margin-top:0}
-html.mindscape-theme .kubio-header-color-palette-overlay .kubio-header-color-palette-overlay__popup .kubio-header-color-palette-list-container .kubio-header-color-palette-list .colors-scheme-container .kubio-current-colors-palette .kubio-color-popover-indicator{margin-bottom:5px;margin-left:0;margin-right:8px}
-html.mindscape-theme .kubio-header-color-palette-overlay .kubio-header-color-palette-overlay__popup .kubio-header-color-palette-list-container .kubio-header-color-palette-list.first{border-bottom:1px solid #ddd}@media (max-width:767px){
-html.mindscape-theme .kubio-header-color-palette-overlay .kubio-header-color-palette-overlay__popup{width:350px}}@-webkit-keyframes kubiofadeInAnimation{0%{opacity:0}to{opacity:1}}@keyframes kubiofadeInAnimation{0%{opacity:0}to{opacity:1}}
 html.mindscape-theme .wp-block-kubio-header.wp-block,
 html.mindscape-theme .wp-block-kubio-header [data-kubio]:not([class*=h-col-]){max-width:unset!important}
 html.mindscape-theme .wp-block-kubio-heading .h-hidden,
@@ -1470,10 +1441,8 @@ html.mindscape-theme .wp-block-kubio-heading a{text-decoration:underline}
 html.mindscape-theme a.d-block .wp-block-kubio-heading{margin-bottom:0}
 html.mindscape-theme .wp-block-kubio-hero.wp-block,
 html.mindscape-theme .wp-block-kubio-hero [data-kubio]:not([class*=h-col-]){max-width:unset!important}
-html.mindscape-theme .wp-block-kubio-hero .kubio-dropdown-with-hover{margin-top:var(--kubio-navigation-padding)}
+html.mindscape-theme .wp-block-kubio-hero .kubio-sections-options-container{margin-top:var(--kubio-navigation-padding)}
 html.mindscape-theme .wp-block-kubio-hero__inner{position:static!important}
-html.mindscape-theme .wp-block-kubio-hero.is-hovered>.kubio-canvas-max-width{opacity:1}
-html.mindscape-theme .wp-block-kubio-hero .kubio-canvas-max-width{height:calc(100% - var(--kubio-navigation-padding));top:var(--kubio-navigation-padding)}
 html.mindscape-theme .h-down-arrow{bottom:0;left:0;position:absolute!important;width:100%}
 html.mindscape-theme .h-scroll-to__outer{-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;z-index:2}
 html.mindscape-theme .h-scroll-to__outer>*{cursor:pointer}
@@ -1571,7 +1540,7 @@ html.mindscape-theme .wp-block-kubio-image__captionContainer{display:block}
 html.mindscape-theme .wp-block-kubio-image__caption{line-height:1.6;width:100%;z-index:1}
 html.mindscape-theme .wp-block-kubio-image__image{display:block;height:auto;max-height:100%;width:auto}
 html.mindscape-theme .wp-block-kubio-image__frameContainer{display:inline-block;max-width:100%;position:relative;z-index:1}
-html.mindscape-theme .wp-block-kubio-image__frameContainer img:before{background-color:rgba(0,0,0,.06);content:" "!important;display:inline-block!important;font-size:300000px!important;height:100%!important;max-width:var(--kubio-image-width,100%);overflow:hidden;width:100%!important}
+html.mindscape-theme .wp-block-kubio-image__frameContainer img:before{background-color:transparent;content:" "!important;display:inline-block!important;font-size:300000px!important;height:100%!important;max-width:var(--kubio-image-width,100%);overflow:hidden;width:100%!important}
 html.mindscape-theme .wp-block-kubio-image__frameContainer img[data-width]{width:var(--kubio-image-width,auto)}
 html.mindscape-theme .wp-block-kubio-image__frameContainer .frame-type-background{border:inherit;border-color:transparent!important}
 html.mindscape-theme .wp-block-kubio-image__overlay{bottom:0;left:0;overflow:hidden;pointer-events:none;position:absolute;right:0;top:0;z-index:1}
@@ -1580,6 +1549,7 @@ html.mindscape-theme .wp-block-kubio-image__frameImage.frame-image-shadow{box-sh
 html.mindscape-theme .wp-block-kubio-image .components-placeholder{line-height:1.6!important;font:initial!important;font-style:normal;font-weight:400;letter-spacing:normal;text-decoration:none;text-transform:none}
 html.mindscape-theme .wp-block-kubio-image .components-placeholder .components-placeholder__fieldset .components-button{padding:6px 12px}
 html.mindscape-theme .image-link{display:contents;text-decoration:none}
+html.mindscape-theme .wp-block-kubio-image img,
 html.mindscape-theme [data-align=full]>.wp-block-kubio-image img,
 html.mindscape-theme [data-align=wide]>.wp-block-kubio-image img{width:100%}
 html.mindscape-theme .wp-block[data-align=left]>.wp-block-kubio-image{margin:.5em 1em .5em 0}
@@ -1590,7 +1560,6 @@ html.mindscape-theme .wp-block-kubio-image .alignleft,
 html.mindscape-theme .wp-block-kubio-image .alignright,
 html.mindscape-theme .wp-block-kubio-image.is-resized{display:table}
 html.mindscape-theme .image-size-row-dropdown{flex-grow:1}
-html.mindscape-theme .components-input-control__container input{font-size:12px!important}
 html.mindscape-theme .wp-block-kubio-linkgroup__outer{display:block;width:100%}
 html.mindscape-theme [data-kubio] .wp-block-kubio-linkgroup__outer{display:inline-block}
 html.mindscape-theme .wp-block-kubio-link__outer{display:inline-flex}
@@ -1632,19 +1601,24 @@ html.mindscape-theme .kubio-menu ul li>a{color:inherit}
 html.mindscape-theme .kubio-menu .is-selected svg.kubio-menu-item-icon{transform:rotate(0deg)}
 html.mindscape-theme .kubio-menu svg.kubio-menu-item-icon{box-sizing:content-box;height:1em;min-height:1em;min-width:1em;width:1em}
 html.mindscape-theme .kubio-menu svg.kubio-menu-item-icon path{fill:currentColor}
+html.mindscape-theme .kubio-dropdown-menu svg.kubio-menu-item-icon{margin-right:0!important;padding-right:0!important}
 html.mindscape-theme .mobile-menu-button{margin-top:10px}
 html.mindscape-theme .kubio-dropdown-menu{display:flex;flex-grow:1}
 html.mindscape-theme .kubio-dropdown-menu .wp-block-kubio-mobile-menu-icon{display:none}
 html.mindscape-theme .kubio-dropdown-menu .kubio-menu{display:flex;width:100%}
 html.mindscape-theme .kubio-dropdown-menu .kubio-menu li{align-items:center;display:flex}
+html.mindscape-theme .kubio-dropdown-menu .kubio-menu li ul.open-reverse:not(#extra-1){left:auto;right:100%}
 html.mindscape-theme .kubio-dropdown-menu .kubio-menu ul,
 html.mindscape-theme .kubio-dropdown-menu .kubio-menu ul:not(.h-select-control__menu) li{margin:0;padding:0;position:relative}
 html.mindscape-theme .kubio-dropdown-menu .kubio-menu>ul{align-items:center;display:flex;flex-grow:1;flex-wrap:wrap}
 html.mindscape-theme .kubio-dropdown-menu .kubio-menu>ul:after,
 html.mindscape-theme .kubio-dropdown-menu .kubio-menu>ul:before{display:none}
 html.mindscape-theme .kubio-dropdown-menu .kubio-menu>ul>li>ul{margin-left:0!important}
-html.mindscape-theme .kubio-dropdown-menu .kubio-menu>ul>li>ul:before{bottom:100%;content:"";position:absolute;width:100%}
-html.mindscape-theme .kubio-dropdown-menu .kubio-menu>ul>li>ul li.menu-item-has-children:hover:after{content:"";height:100%;left:100%;position:absolute;top:0;width:50px;z-index:-1}
+html.mindscape-theme .kubio-dropdown-menu .kubio-menu>ul>li>ul:before{bottom:100%;content:"";display:block;position:absolute;width:100%}
+html.mindscape-theme .kubio-dropdown-menu .kubio-menu>ul>li>ul li.menu-item-has-children:hover:after,
+html.mindscape-theme .kubio-dropdown-menu .kubio-menu>ul>li>ul li.menu-item-has-children:hover:before{content:"";height:100%;position:absolute;top:0;width:50px;z-index:-1}
+html.mindscape-theme .kubio-dropdown-menu .kubio-menu>ul>li>ul li.menu-item-has-children:hover:after{left:100%;right:auto}
+html.mindscape-theme .kubio-dropdown-menu .kubio-menu>ul>li>ul li.menu-item-has-children:hover:before{left:auto;right:100%}
 html.mindscape-theme .kubio-dropdown-menu .kubio-menu li>ul{left:0;min-width:200px;opacity:0;position:absolute;top:-100000px;transition:opacity .1s linear;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;z-index:2}
 html.mindscape-theme .kubio-dropdown-menu .kubio-menu li>ul:empty{display:none}
 html.mindscape-theme .kubio-dropdown-menu .kubio-menu li>ul .kubio-menu-item-icon{transform:rotate(-90deg)}
@@ -1823,6 +1797,7 @@ html.mindscape-theme .kubio-dropdown-menu.solid-active-item.effect-none .kubio-m
 html.mindscape-theme .kubio-dropdown-menu.solid-active-item.effect-none .kubio-menu>ul>li.current_page_item:before{opacity:1!important}
 html.mindscape-theme .kubio-dropdown-menu.solid-active-item.effect-none .kubio-menu>ul>li.current-menu-item:after,
 html.mindscape-theme .kubio-dropdown-menu.solid-active-item.effect-none .kubio-menu>ul>li.current_page_item:after{visibility:hidden}
+html[lang] .wp-block-kubio-dropdown-menu>.kubio-menu>.menu>.menu-item>a>br{display:none!important}
 html.mindscape-theme .kubio-accordion-menu li{flex-direction:column}
 html.mindscape-theme .kubio-accordion-menu li:last-of-type{border-bottom:none!important}
 html.mindscape-theme .kubio-accordion-menu li>ul{display:none}
@@ -1838,6 +1813,7 @@ html.mindscape-theme .kubio-accordion-menu li ul>li>a:before{content:" ";display
 html.mindscape-theme .kubio-accordion-menu .h-block-placeholder{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;text-decoration:none;text-transform:none}
 html.mindscape-theme .wp-block-kubio-menu-offscreen__container{width:100%}
 html.mindscape-theme .wp-block-kubio-menu-offscreen__inner{height:100%}
+html.mindscape-theme .wp-block-kubio-menu-offscreen__iconWrapper:focus:focus-visible{outline:auto}
 html.mindscape-theme .kubio-offscreen{-webkit-animation-duration:.25s;animation-duration:.25s;height:100%;margin:0;min-height:100%;overflow:hidden auto;position:fixed;right:0;top:0;width:300px;z-index:2000001}
 html.mindscape-theme .kubio-offscreen-overlay{bottom:0;cursor:pointer;display:block;left:0;opacity:0;position:fixed;right:0;top:0;transition:opacity .25s linear;visibility:hidden;z-index:-1000}
 html.mindscape-theme .h-offcanvas-opened{display:block;opacity:1;visibility:visible;z-index:20000}
@@ -1846,25 +1822,26 @@ html.mindscape-theme .wp-block-kubio-menu-offscreen-content>.wp-block-kubio-row{
 html.mindscape-theme .wp-block-kubio-menu-offscreen-content>.wp-block-kubio-accordion-menu{display:flex;flex-grow:1;width:100%}
 html.mindscape-theme .wp-block-kubio-menu-offscreen-content>.wp-block-kubio-accordion-menu .wp-block-kubio-menu-items{width:100%}
 html.mindscape-theme .wp-block-kubio-navigation-section{-webkit-backface-visibility:hidden;backface-visibility:hidden;position:relative;transition:all .5s;z-index:20}
-html.mindscape-theme .wp-block-kubio-navigation-top-bar.is-hovered>.kubio-canvas-max-width,
-html.mindscape-theme .wp-block-kubio-navigation-top-bar .kubio-canvas-max-width:hover{opacity:1}
 html.mindscape-theme .wp-block-kubio-navigation{padding-left:inherit;padding-right:inherit}
 html.mindscape-theme .wp-block-kubio-navigation.wp-block,
 html.mindscape-theme .wp-block-kubio-navigation [data-kubio]:not([class*=h-col-]){max-width:unset!important}
-html.mindscape-theme .wp-block-kubio-navigation.is-hovered .wp-block-kubio-navigation-section__nav>.kubio-canvas-max-width,
-html.mindscape-theme .wp-block-kubio-navigation .wp-block-kubio-navigation-section__nav>.kubio-canvas-max-width:hover{opacity:1}
 html.mindscape-theme .wp-block-kubio-navigation.h-navigation_overlap{left:0;position:absolute!important;right:0;z-index:10001}
 html.mindscape-theme .wp-block-kubio-navigation [data-nav-normal]{transition:all .5s}
 html.mindscape-theme .wp-block-kubio-navigation .h-hide-normal{display:none}
+html.mindscape-theme .wp-block-kubio-navigation .h-navigation_sticky .wp-block-kubio-row__inner{display:grid;grid-template-columns:auto auto;justify-content:space-between!important}
+html.mindscape-theme .wp-block-kubio-navigation .h-navigation_sticky .wp-block-kubio-row__inner:has(>:nth-child(3)){display:flex}
 html.mindscape-theme .wp-block-kubio-navigation .h-navigation_sticky .h-hide-normal{display:flex}
 html.mindscape-theme .wp-block-kubio-navigation .h-navigation_sticky .h-hide-sticky{display:none}
 html.mindscape-theme .wp-block-kubio-navigation__outer{position:relative}
 html.mindscape-theme .wp-block-kubio-navigation_container-in-sticky{z-index:9999}@-webkit-keyframes slideOutDownNavigation{0%{transform:translateZ(0)}to{transform:translate3d(0,-100%,0);visibility:hidden}}@keyframes slideOutDownNavigation{0%{transform:translateZ(0)}to{transform:translate3d(0,-100%,0);visibility:hidden}}
 html.mindscape-theme .slideOutDownNavigation{-webkit-animation-name:slideOutDownNavigation;animation-name:slideOutDownNavigation}
+html.mindscape-theme .fade-animation-without-other-transitions{transition-property:opacity!important}
 html.mindscape-theme .wp-block-kubio-page-title{word-break:break-word}
 html.mindscape-theme .wp-block-kubio-page-title .components-select-control__input{line-height:unset!important}
 html.mindscape-theme .wp-block-kubio-page-title .kubio-alternate-logo-image{display:none}
 html.mindscape-theme .wp-block-kubio-pagination-numbers .page-numbers{display:inline-block}
+html.mindscape-theme .wp-block-kubio-post-author-name a{width:100%}
+html.mindscape-theme .wp-block-kubio-post-author-name p{margin-bottom:0;margin-top:0;width:100%}
 html.mindscape-theme .comment-respond{text-align:initial}
 html.mindscape-theme .comment-respond label{display:block}
 html.mindscape-theme .comment-respond .comment-reply-title{text-align:left}
@@ -1923,23 +1900,23 @@ html.mindscape-theme .wp-block-kubio-post-comments.kubio-migration--1 .comment-r
 html.mindscape-theme .wp-block-kubio-post-comments.kubio-migration--1 .comment-respond p.comment-notes{font-size:80%}
 html.mindscape-theme .wp-block-kubio-post-comments.kubio-migration--1 .blog-post-comments-not-allow{background-color:rgba(3,169,244,.05);border:1px solid rgba(3,169,244,.1);border-radius:3px;padding-bottom:20px;padding-top:20px;text-align:center}
 html.mindscape-theme .wp-block-kubio-post-comments.kubio-migration--1 .blog-post-comments-not-allow .blog-comments-not-allow-message{font-size:16px;font-weight:800}
-html.mindscape-theme .entry-content{max-width:unset}
-html.mindscape-theme .entry-content>:not([data-kubio]){margin:clamp(1rem,.5em,2.5rem) auto clamp(1rem,.25em,2rem)!important}
-html.mindscape-theme .entry-content blockquote.wp-block-quote{border:none;margin:16px 40px;padding:0}
-html.mindscape-theme .entry-content>:first-child{margin-top:0}
-html.mindscape-theme .entry-content>:last-child{margin-bottom:0}
-html.mindscape-theme .entry-content>.wp-block-kubio-section{margin:0;max-width:unset}
-html.mindscape-theme .entry-content>*{max-width:840px}
-html.mindscape-theme .entry-content .alignfull{max-width:unset;width:100%}
-html.mindscape-theme .entry-content .alignwide{margin-left:auto;margin-right:auto;max-width:1200px;width:100%}@media (max-width:767px){
-html.mindscape-theme .entry-content .alignwide{max-width:100%;width:100%}}@media (min-width:768px) and (max-width:1023px){
-html.mindscape-theme .entry-content .alignwide{max-width:100%;width:100%}}
-html.mindscape-theme .wp-block-kubio-section .entry-content{max-width:unset}
-html.mindscape-theme .wp-block-kubio-section .entry-content>:not([data-kubio]){margin:clamp(1rem,.5em,2.5rem) auto clamp(1rem,.25em,2rem)!important}
-html.mindscape-theme .wp-block-kubio-section .entry-content blockquote.wp-block-quote{border:none;margin:16px 40px;padding:0}
-html.mindscape-theme .wp-block-kubio-section .entry-content>:first-child{margin-top:0}
-html.mindscape-theme .wp-block-kubio-section .entry-content>:last-child{margin-bottom:0}
-html.mindscape-theme .wp-block-kubio-section .entry-content>.wp-block-kubio-section{margin:0;max-width:unset}
+html.mindscape-theme .entry-content:not(.wc-tab)>*{margin:clamp(1rem,.5em,2.5rem) auto clamp(1rem,.25em,2rem)}
+html.mindscape-theme .entry-content:not(.wc-tab)>:first-child{margin-top:0}
+html.mindscape-theme .entry-content:not(.wc-tab)>:last-child{margin-bottom:0}
+html.mindscape-theme .entry-content:not(.wc-tab)>.wp-block-kubio-section{margin:0;max-width:unset}
+html.mindscape-theme .entry-content:not(.wc-tab)>*{max-width:840px}
+html.mindscape-theme .entry-content:not(.wc-tab) .alignwide{margin-left:auto;margin-right:auto;max-width:1200px;width:100%}@media (max-width:767px){
+html.mindscape-theme .entry-content:not(.wc-tab) .alignwide{max-width:100%;width:100%}}@media (min-width:768px) and (max-width:1023px){
+html.mindscape-theme .entry-content:not(.wc-tab) .alignwide{max-width:100%;width:100%}}
+html.mindscape-theme .wp-block-kubio-section .entry-content:not(.wc-tab)>*{margin:clamp(1rem,.5em,2.5rem) auto clamp(1rem,.25em,2rem)}
+html.mindscape-theme .wp-block-kubio-section .entry-content:not(.wc-tab)>:first-child{margin-top:0}
+html.mindscape-theme .wp-block-kubio-section .entry-content:not(.wc-tab)>:last-child{margin-bottom:0}
+html.mindscape-theme .wp-block-kubio-section .entry-content:not(.wc-tab)>.wp-block-kubio-section{margin:0;max-width:unset}
+html.mindscape-theme .wp-block-kubio-section .entry-content:not(.wc-tab)>*{max-width:840px}
+html.mindscape-theme .wp-block-kubio-section .entry-content:not(.wc-tab) .alignwide{margin-left:auto;margin-right:auto;max-width:1200px;width:100%}@media (max-width:767px){
+html.mindscape-theme .wp-block-kubio-section .entry-content:not(.wc-tab) .alignwide{max-width:100%;width:100%}}@media (min-width:768px) and (max-width:1023px){
+html.mindscape-theme .wp-block-kubio-section .entry-content:not(.wc-tab) .alignwide{max-width:100%;width:100%}}
+html.mindscape-theme .wp-site-blocks:has(.wp-block-kubio-header) .wp-block-post-content{-webkit-margin-before:0;-webkit-margin-after:0;margin-block-end:0;margin-block-start:0}
 html.mindscape-theme .wp-block-kubio-post-featured-image{margin:0}
 html.mindscape-theme .wp-block-kubio-post-featured-image>img{border-radius:inherit;display:block;height:100%;width:100%}
 html.mindscape-theme .wp-block-kubio-post-featured-image .block-list-appender{width:100%}
@@ -1970,11 +1947,14 @@ html.mindscape-theme .kubio-sortable-accordion-title .components-toggle-control 
 html.mindscape-theme .wp-block-kubio-post-tags__container{justify-content:center}
 html.mindscape-theme .wp-block-kubio-post-tags__container a{white-space:pre}
 html.mindscape-theme .wp-block-kubio-post-tags__tags>div{word-break:break-all}
-html.mindscape-theme .wp-block-kubio-query-pagination .components-placeholder{background:#f5f7f7;padding:30px 40px}
+html.mindscape-theme .wp-block-kubio-post-tags__tags>div a{display:inline-block;white-space:normal}
+html.mindscape-theme .wp-block-kubio-query-pagination .components-placeholder:not(.extra-1){background:#f5f7f7;padding:30px 40px}
 html.mindscape-theme .wp-block-kubio-query-pagination .components-placeholder__label{color:#454545;font-size:24px!important;font-weight:500!important;line-height:1.2;margin-bottom:5px}
 html.mindscape-theme .wp-block-kubio-query-pagination .kubio-block-icon{display:none}
-html.mindscape-theme .wp-block-kubio-query-pagination .block-editor-block-variation-picker__variation{border:1px solid #ccc;box-shadow:none;color:#1e1e1e}
-html.mindscape-theme .wp-block-kubio-query-pagination .block-editor-block-variation-picker__variation:hover{background-color:#e5f1f8!important;border-color:#007cba;color:#007cba}
+html.mindscape-theme .wp-block-kubio-query-pagination .block-editor-block-variation-picker__variations{justify-content:flex-start!important;margin-left:-8px!important;margin-top:0!important}
+html.mindscape-theme .wp-block-kubio-query-pagination .block-editor-block-variation-picker__variation:not(.extra-1){border:1px solid #ccc;box-shadow:none;color:#1e1e1e}
+html.mindscape-theme .wp-block-kubio-query-pagination .block-editor-block-variation-picker__variation:not(.extra-1) svg{height:40px;width:40px}
+html.mindscape-theme .wp-block-kubio-query-pagination .block-editor-block-variation-picker__variation:not(.extra-1):hover{background-color:#e5f1f8!important;border-color:#007cba;color:#007cba}
 html.mindscape-theme .wp-block-kubio-query-loop-item{max-width:100%;min-width:0}
 html.mindscape-theme .wp-block-kubio-query-loop-item.masonry-item{transition-duration:0s}
 html.mindscape-theme .wp-block-kubio-query-loop-item__content .h-heading h1:last-child,
@@ -2023,147 +2003,24 @@ html.mindscape-theme #kubio .wp-block-kubio-search-form__button span svg{height:
 html.mindscape-theme #kubio .wp-block-kubio-search-form .search-input:focus::-moz-placeholder{color:transparent}
 html.mindscape-theme #kubio .wp-block-kubio-search-form .search-input:focus:-ms-input-placeholder{color:transparent}
 html.mindscape-theme #kubio .wp-block-kubio-search-form .search-input:focus::placeholder{color:transparent}
+html.mindscape-theme .kubio-section-between-sections-inserter-wrapper{align-items:center;background:transparent;display:flex;height:4px;justify-content:center;left:0;position:absolute;width:100%}
+html.mindscape-theme .kubio-section-between-sections-inserter-wrapper .kubio-section-between-sections-inserter__line{-webkit-animation-duration:.3s;animation-duration:.3s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-name:between-section-inserter-animation;animation-name:between-section-inserter-animation;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;background:var(--wp-admin-theme-color);height:100%;position:absolute;transform-origin:center;width:0}
+html.mindscape-theme .kubio-section-between-sections-inserter-wrapper__dialog{background:transparent;border:none;height:100%;padding:0;pointer-events:none;top:0;width:100%;z-index:999999999}
+html.mindscape-theme .kubio-section-between-sections-inserter-wrapper__dialog button{pointer-events:auto;position:absolute}
+html.mindscape-theme .kubio-section-between-sections-inserter-wrapper--top{top:-2px}
+html.mindscape-theme .kubio-section-between-sections-inserter-wrapper--top button{top:50%;transform:translateY(-50%)}
+html.mindscape-theme .kubio-section-between-sections-inserter-wrapper--bottom{bottom:-2px}
+html.mindscape-theme .kubio-section-between-sections-inserter-wrapper--bottom button{top:50%;transform:translateY(-50%)}@-webkit-keyframes between-section-inserter-animation{0%{width:50%}to{width:100%}}@keyframes between-section-inserter-animation{0%{width:50%}to{width:100%}}
+html.mindscape-theme .kubio-inserter-popup-disabled{display:none!important}
+html.mindscape-theme .kubio-disable-animation:not(#extra-1){-webkit-animation-name:none;animation-name:none}
 html.mindscape-theme .wp-block-kubio-section.wp-block,
 html.mindscape-theme .wp-block-kubio-section [data-kubio]:not([class*=h-col-]){max-width:unset!important}
 html.mindscape-theme .wp-block-kubio-section>div{display:flex;flex-direction:column;z-index:1}
 html.mindscape-theme .wp-block-kubio-section>div.h-separator{z-index:1}
 html.mindscape-theme .wp-block-kubio-section .entry-content>*{max-width:unset}
-html.mindscape-theme .wp-block-kubio-section.is-hovered>.kubio-canvas-max-width,
-html.mindscape-theme .wp-block-kubio-section .kubio-canvas-max-width:hover{opacity:1}
-html.mindscape-theme .wp-block-kubio-section__inner.resize-ongoing{outline:2px dotted #007cba!important}
 html.mindscape-theme .h-shortcode-placeholder-preview{background-color:#f7f7f7;border:1px solid #dadada;color:#919191;padding:10px;text-align:center}
 html.mindscape-theme .wp-block-kubio-social-icon{display:inline-block}
 html.mindscape-theme .wp-block-kubio-social-icon .h-svg-icon svg{width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline .mc4wp-form-fields{display:inline-flex;display:inline-grid;flex-wrap:wrap;grid-template-columns:auto auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline .mc4wp-form-fields input:not([type=file]):not([type=radio]):not([type=checkbox]):not([type=submit]){width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline .mc4wp-form-fields .kubio-newsletter__email-group{align-items:center;flex:1 1 auto;flex-direction:row;justify-content:flex-start}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline .mc4wp-form-fields .kubio-newsletter__agree-terms-group{flex:0 1 100%;grid-column:1/span 2;grid-row:2}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline .mc4wp-form-fields .kubio-newsletter__submit-group{flex:0 1 auto;grid-column:2/span 1;grid-row:1}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline.kubio-newsletter-email--auto .mc4wp-form-fields{grid-template-columns:1fr auto;width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline.kubio-newsletter-email--auto .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:100%!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline.kubio-newsletter-email--custom .mc4wp-form-fields{grid-template-columns:auto auto;width:auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline.kubio-newsletter-email--custom .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:unset!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto,
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto form{width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom,
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom form{width:auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below .mc4wp-form-fields{display:block}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below .mc4wp-form-fields .kubio-newsletter__email-group{align-items:flex-start;flex-direction:column;justify-content:center}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below .mc4wp-form-fields .kubio-newsletter__agree-terms-group,
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below .mc4wp-form-fields .kubio-newsletter__submit-group{grid-column:unset;grid-row:unset}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below.kubio-newsletter-email--auto .kubio-newsletter__email-group input{min-width:100%!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below.kubio-newsletter-email--custom .kubio-newsletter__email-group input{min-width:unset!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-start [type=submit]{margin-left:0!important;margin-right:auto!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--center [type=submit]{margin-left:auto!important;margin-right:auto!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-end [type=submit]{margin-left:auto!important;margin-right:0!important}@media (min-width:576px){
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm .mc4wp-form-fields{display:inline-flex;display:inline-grid;flex-wrap:wrap;grid-template-columns:auto auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm .mc4wp-form-fields input:not([type=file]):not([type=radio]):not([type=checkbox]):not([type=submit]){width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm .mc4wp-form-fields .kubio-newsletter__email-group{align-items:center;flex:1 1 auto;flex-direction:row;justify-content:flex-start}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm .mc4wp-form-fields .kubio-newsletter__agree-terms-group{flex:0 1 100%;grid-column:1/span 2;grid-row:2}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm .mc4wp-form-fields .kubio-newsletter__submit-group{flex:0 1 auto;grid-column:2/span 1;grid-row:1}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm.kubio-newsletter-email--auto-sm .mc4wp-form-fields{grid-template-columns:1fr auto;width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm.kubio-newsletter-email--auto-sm .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:100%!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm.kubio-newsletter-email--custom-sm .mc4wp-form-fields{grid-template-columns:auto auto;width:auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm.kubio-newsletter-email--custom-sm .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:unset!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-sm,
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-sm form{width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-sm,
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-sm form{width:auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-sm .mc4wp-form-fields{display:block}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-sm .mc4wp-form-fields .kubio-newsletter__email-group{align-items:flex-start;flex-direction:column;justify-content:center}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-sm .mc4wp-form-fields .kubio-newsletter__agree-terms-group,
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-sm .mc4wp-form-fields .kubio-newsletter__submit-group{grid-column:unset;grid-row:unset}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-sm.kubio-newsletter-email--auto-sm .kubio-newsletter__email-group input{min-width:100%!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-sm.kubio-newsletter-email--custom-sm .kubio-newsletter__email-group input{min-width:unset!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-start-sm [type=submit]{margin-left:0!important;margin-right:auto!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--center-sm [type=submit]{margin-left:auto!important;margin-right:auto!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-end-sm [type=submit]{margin-left:auto!important;margin-right:0!important}}@media (min-width:768px){
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md .mc4wp-form-fields{display:inline-flex;display:inline-grid;flex-wrap:wrap;grid-template-columns:auto auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md .mc4wp-form-fields input:not([type=file]):not([type=radio]):not([type=checkbox]):not([type=submit]){width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md .mc4wp-form-fields .kubio-newsletter__email-group{align-items:center;flex:1 1 auto;flex-direction:row;justify-content:flex-start}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md .mc4wp-form-fields .kubio-newsletter__agree-terms-group{flex:0 1 100%;grid-column:1/span 2;grid-row:2}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md .mc4wp-form-fields .kubio-newsletter__submit-group{flex:0 1 auto;grid-column:2/span 1;grid-row:1}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md.kubio-newsletter-email--auto-md .mc4wp-form-fields{grid-template-columns:1fr auto;width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md.kubio-newsletter-email--auto-md .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:100%!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md.kubio-newsletter-email--custom-md .mc4wp-form-fields{grid-template-columns:auto auto;width:auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md.kubio-newsletter-email--custom-md .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:unset!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-md,
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-md form{width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-md,
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-md form{width:auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-md .mc4wp-form-fields{display:block}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-md .mc4wp-form-fields .kubio-newsletter__email-group{align-items:flex-start;flex-direction:column;justify-content:center}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-md .mc4wp-form-fields .kubio-newsletter__agree-terms-group,
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-md .mc4wp-form-fields .kubio-newsletter__submit-group{grid-column:unset;grid-row:unset}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-md.kubio-newsletter-email--auto-md .kubio-newsletter__email-group input{min-width:100%!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-md.kubio-newsletter-email--custom-md .kubio-newsletter__email-group input{min-width:unset!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-start-md [type=submit]{margin-left:0!important;margin-right:auto!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--center-md [type=submit]{margin-left:auto!important;margin-right:auto!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-end-md [type=submit]{margin-left:auto!important;margin-right:0!important}}@media (min-width:1024px){
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg .mc4wp-form-fields{display:inline-flex;display:inline-grid;flex-wrap:wrap;grid-template-columns:auto auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg .mc4wp-form-fields input:not([type=file]):not([type=radio]):not([type=checkbox]):not([type=submit]){width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg .mc4wp-form-fields .kubio-newsletter__email-group{align-items:center;flex:1 1 auto;flex-direction:row;justify-content:flex-start}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg .mc4wp-form-fields .kubio-newsletter__agree-terms-group{flex:0 1 100%;grid-column:1/span 2;grid-row:2}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg .mc4wp-form-fields .kubio-newsletter__submit-group{flex:0 1 auto;grid-column:2/span 1;grid-row:1}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg.kubio-newsletter-email--auto-lg .mc4wp-form-fields{grid-template-columns:1fr auto;width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg.kubio-newsletter-email--auto-lg .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:100%!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg.kubio-newsletter-email--custom-lg .mc4wp-form-fields{grid-template-columns:auto auto;width:auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg.kubio-newsletter-email--custom-lg .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:unset!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-lg,
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-lg form{width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-lg,
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-lg form{width:auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-lg .mc4wp-form-fields{display:block}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-lg .mc4wp-form-fields .kubio-newsletter__email-group{align-items:flex-start;flex-direction:column;justify-content:center}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-lg .mc4wp-form-fields .kubio-newsletter__agree-terms-group,
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-lg .mc4wp-form-fields .kubio-newsletter__submit-group{grid-column:unset;grid-row:unset}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-lg.kubio-newsletter-email--auto-lg .kubio-newsletter__email-group input{min-width:100%!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-lg.kubio-newsletter-email--custom-lg .kubio-newsletter__email-group input{min-width:unset!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-start-lg [type=submit]{margin-left:0!important;margin-right:auto!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--center-lg [type=submit]{margin-left:auto!important;margin-right:auto!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-end-lg [type=submit]{margin-left:auto!important;margin-right:0!important}}@media (min-width:1200px){
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl .mc4wp-form-fields{display:inline-flex;display:inline-grid;flex-wrap:wrap;grid-template-columns:auto auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl .mc4wp-form-fields input:not([type=file]):not([type=radio]):not([type=checkbox]):not([type=submit]){width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl .mc4wp-form-fields .kubio-newsletter__email-group{align-items:center;flex:1 1 auto;flex-direction:row;justify-content:flex-start}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl .mc4wp-form-fields .kubio-newsletter__agree-terms-group{flex:0 1 100%;grid-column:1/span 2;grid-row:2}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl .mc4wp-form-fields .kubio-newsletter__submit-group{flex:0 1 auto;grid-column:2/span 1;grid-row:1}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl.kubio-newsletter-email--auto-xl .mc4wp-form-fields{grid-template-columns:1fr auto;width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl.kubio-newsletter-email--auto-xl .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:100%!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl.kubio-newsletter-email--custom-xl .mc4wp-form-fields{grid-template-columns:auto auto;width:auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl.kubio-newsletter-email--custom-xl .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:unset!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-xl,
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-xl form{width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-xl,
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-xl form{width:auto}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-xl .mc4wp-form-fields{display:block}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-xl .mc4wp-form-fields .kubio-newsletter__email-group{align-items:flex-start;flex-direction:column;justify-content:center}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-xl .mc4wp-form-fields .kubio-newsletter__agree-terms-group,
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-xl .mc4wp-form-fields .kubio-newsletter__submit-group{grid-column:unset;grid-row:unset}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-xl.kubio-newsletter-email--auto-xl .kubio-newsletter__email-group input{min-width:100%!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-xl.kubio-newsletter-email--custom-xl .kubio-newsletter__email-group input{min-width:unset!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-start-xl [type=submit]{margin-left:0!important;margin-right:auto!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--center-xl [type=submit]{margin-left:auto!important;margin-right:auto!important}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-end-xl [type=submit]{margin-left:auto!important;margin-right:0!important}}
-html.mindscape-theme .wp-block-kubio-subscribe-form .h-block-placeholder{font-style:normal;font-weight:400;letter-spacing:normal;text-decoration:none;text-transform:none}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container{overflow:visible}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form{display:inline-block;margin:0;max-width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form input{line-height:normal;max-width:100%;outline:none}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form input[type=checkbox],
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form input[type=radio]{bottom:0}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form [type=submit]{border-color:transparent}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form input:focus{box-shadow:none}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form .mc4wp-form-fields>*{align-items:center;display:flex;justify-content:space-between}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form .mc4wp-form-fields>p{margin:0}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__agree-terms-group{justify-content:flex-start}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__agree-terms-group input[type=checkbox]{height:16px;margin:0 5px 0 0;width:16px}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__email-group{display:flex;flex:1}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__email-group label{white-space:nowrap}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__submit-group button{align-items:center;display:inline-flex}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__submit-group button .kubio-newsletter__submit-text{order:2}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__submit-group button svg{height:100%;width:100%}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container form .mc4wp-alert p{margin-bottom:0}
-html.mindscape-theme .wp-block-kubio-subscribe-form__container.submit_icon_position-after .kubio-newsletter__submit-group button[type=submit]{align-items:center;display:flex;flex-direction:row}
-html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter__agree-terms-group p{color:inherit!important;font-family:inherit!important;font-size:inherit!important;font-style:inherit!important;font-weight:inherit!important;letter-spacing:inherit!important;line-height:inherit!important;text-decoration:inherit!important;text-transform:inherit!important}
 html.mindscape-theme .h-tabs--horizontal--auto.h-tabs-horizontal>.h-tabs-navigation>*{flex-basis:auto;flex-grow:0}
 html.mindscape-theme .h-tabs--horizontal--stretch.h-tabs-horizontal>.h-tabs-navigation>*{flex-basis:auto;flex-grow:1}
 html.mindscape-theme .h-tabs--horizontal--full.h-tabs-horizontal>.h-tabs-navigation>*{flex-basis:100%;flex-grow:0}
@@ -2254,7 +2111,8 @@ html.mindscape-theme .wp-block-kubio-video .embed-youtube{margin-bottom:0}
 html.mindscape-theme .wp-block-kubio-video__video .wp-block-kubio-shortcode__outer,
 html.mindscape-theme .wp-block-kubio-video__video iframe,
 html.mindscape-theme .wp-block-kubio-video__video video{height:100%;width:100%}
-html.mindscape-theme .wp-block-kubio-video__outer,
+html.mindscape-theme .wp-block-kubio-video__outer{width:100%}
+html.mindscape-theme .wp-block-kubio-video__outer:before{content:"";display:block}
 html.mindscape-theme .wp-block-kubio-video__outer.h-aspect-ratio:before{width:100%}
 html.mindscape-theme .wp-block-kubio-video__outer.h-aspect-ratio--3-2:before{padding-top:66%}
 html.mindscape-theme .wp-block-kubio-video__outer.h-aspect-ratio--4-3:before{padding-top:75%}
@@ -2271,9 +2129,6 @@ html.mindscape-theme .components-flex.components-input-control.kubio-video-time-
 html.mindscape-theme .components-flex.components-input-control.kubio-video-time-container>.components-flex__item{flex-basis:0;flex-grow:1;margin-bottom:0}
 html.mindscape-theme .kubio-media-upload{pointer-events:none}
 html.mindscape-theme .video-options-customize-play__container{margin:0 -10px;padding:0 10px 10px}
-html.mindscape-theme .wp-block-kubio-copyright p{margin:0}
-html.mindscape-theme .wp-block-kubio-post-author-name a{width:100%}
-html.mindscape-theme .wp-block-kubio-post-author-name p{margin-bottom:0;margin-top:0;width:100%}
 html.mindscape-theme .wp-block-kubio-pagination-nav-button__outer{display:inline-flex;vertical-align:middle}
 html.mindscape-theme .wp-block-kubio-pagination-nav-button__link{align-items:center;cursor:pointer;display:inline-flex}
 html.mindscape-theme .wp-block-kubio-pagination-nav-button__inner{cursor:pointer;text-decoration:none}
@@ -2299,10 +2154,6 @@ html.mindscape-theme .wp-block-kubio-query-layout [data-kubio]:not([class*=h-col
 html.mindscape-theme .wp-block-kubio-query-layout>div{display:flex;flex-direction:column;z-index:1}
 html.mindscape-theme .wp-block-kubio-query-layout>div.h-separator{z-index:1}
 html.mindscape-theme .wp-block-kubio-query-layout .entry-content>*{max-width:unset}
-html.mindscape-theme .wp-block-kubio-query-layout.is-hovered>.kubio-canvas-max-width,
-html.mindscape-theme .wp-block-kubio-query-layout .kubio-canvas-max-width:hover{opacity:1}
-html.mindscape-theme .wp-block-kubio-query-layout__inner.resize-ongoing{outline:2px dotted #007cba!important}
-html.mindscape-theme #kubio .kubio-inherit-typography{color:inherit;font-family:inherit;font-size:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit;text-transform:inherit}
 html.mindscape-theme [data-kubio-aos].force-hide:not([data-kubio-aos=none]){visibility:none!important}
 html.mindscape-theme [data-kubio-aos]:not([data-kubio-aos=none]){visibility:hidden!important}
 html.mindscape-theme [data-kubio-aos]:not([data-kubio-aos=none]):not([class*=fade]){opacity:1!important}
@@ -2326,7 +2177,7 @@ html.mindscape-theme .wp-block-kubio-multipleimagespicture__captionContainer{dis
 html.mindscape-theme .wp-block-kubio-multipleimagespicture__caption{line-height:1.6;width:100%;z-index:1}
 html.mindscape-theme .wp-block-kubio-multipleimagespicture__image{display:block;height:auto;max-height:100%;width:auto}
 html.mindscape-theme .wp-block-kubio-multipleimagespicture__frameContainer{display:inline-block;max-width:100%;position:relative;z-index:1}
-html.mindscape-theme .wp-block-kubio-multipleimagespicture__frameContainer img:before{background-color:rgba(0,0,0,.06);content:" "!important;display:inline-block!important;font-size:300000px!important;height:100%!important;max-width:var(--kubio-image-width,100%);overflow:hidden;width:100%!important}
+html.mindscape-theme .wp-block-kubio-multipleimagespicture__frameContainer img:before{background-color:transparent;content:" "!important;display:inline-block!important;font-size:300000px!important;height:100%!important;max-width:var(--kubio-image-width,100%);overflow:hidden;width:100%!important}
 html.mindscape-theme .wp-block-kubio-multipleimagespicture__frameContainer img[data-width]{width:var(--kubio-image-width,auto)}
 html.mindscape-theme .wp-block-kubio-multipleimagespicture__frameContainer .frame-type-background{border:inherit;border-color:transparent!important}
 html.mindscape-theme .wp-block-kubio-multipleimagespicture__overlay{bottom:0;left:0;overflow:hidden;pointer-events:none;position:absolute;right:0;top:0;z-index:1}
@@ -2608,12 +2459,10 @@ html.mindscape-theme .wp-block-kubio-pricing-table-item__triangle-top{background
 html.mindscape-theme .wp-block-kubio-pricing-table-item__ribbon-icon{position:absolute!important;top:30%;transform:translate(-50%,-50%)}
 html.mindscape-theme .wp-block-kubio-pricing-table-item__ribbon-text{align-items:center;display:inline-flex;justify-content:center;text-align:center;transform-origin:center center 0;width:200%}
 html.mindscape-theme .wp-block-kubio-pricing-table-item .ribbon-text__outside{height:250px;position:absolute;top:0;width:250px}
-html.mindscape-theme .wp-block-kubio-slider{max-width:100%!important;position:relative}
-html.mindscape-theme .wp-block-kubio-slider__container{display:flex;flex-direction:column;width:100%}
+html.mindscape-theme .wp-block-kubio-slider{position:relative}
+html.mindscape-theme [data-kubio] .wp-block-kubio-slider{max-width:100%!important}
+html.mindscape-theme .wp-block-kubio-slider__container{display:flex;width:100%}
 html.mindscape-theme .wp-block-kubio-slider .swiper-wrapper{align-items:stretch!important}
-html.mindscape-theme .wp-block-kubio-slider-content{display:flex;height:-webkit-max-content!important;height:-moz-max-content!important;height:max-content!important;height:100%;width:100%}
-html.mindscape-theme .wp-block-kubio-slider-content__outer{height:100%!important;padding:0}
-html.mindscape-theme .wp-block-kubio-slider-content__inner{flex-wrap:nowrap;margin:0}
 html.mindscape-theme .wp-block-kubio-slider-item__outer{flex-basis:100%!important;min-width:100%!important;width:100%!important}
 html.mindscape-theme .wp-block-kubio-slider-item__inner{word-wrap:break-word;height:100%!important;width:100%}
 html.mindscape-theme .wp-block-kubio-slider-item__align{width:100%}
@@ -2622,57 +2471,26 @@ html.mindscape-theme body:not(.editor-styles-wrapper) .wp-block-kubio-slider-ite
 html.mindscape-theme body:not(.editor-styles-wrapper) .wp-block-kubio-slider-item .h-x-container-inner{margin-bottom:0}
 html.mindscape-theme .wp-block-kubio-slider-item.is-selected{visibility:visible}
 html.mindscape-theme .ken-burns-effect .swiper-slide-active .wp-block-kubio-slider-item__inner>.background-wrapper>.background-layer .forceBackgroundLayer{-webkit-animation:slider-ken-burns-effect 10s ease infinite alternate;animation:slider-ken-burns-effect 10s ease infinite alternate;background-attachment:scroll;background-position:50%;background-repeat:no-repeat;background-size:cover}
-html.mindscape-theme .swiper-container-fade .wp-block-kubio-slider-item__outer:not(.swiper-slide-active){opacity:0!important}
-html.mindscape-theme .swiper-container{overflow:hidden}@-webkit-keyframes slider-ken-burns-effect{0%{transform:scale(1);transform-origin:center center}to{transform:scale(1.1)}}@keyframes slider-ken-burns-effect{0%{transform:scale(1);transform-origin:center center}to{transform:scale(1.1)}}
-html.mindscape-theme .wp-block-kubio-carousel{max-width:100%!important;position:relative}
-html.mindscape-theme .wp-block-kubio-carousel__container{display:flex;flex-direction:column;width:100%}
+html.mindscape-theme .swiper-container-fade .wp-block-kubio-slider-item__outer:not(.swiper-slide-active){opacity:0!important}@-webkit-keyframes slider-ken-burns-effect{0%{transform:scale(1);transform-origin:center center}to{transform:scale(1.1)}}@keyframes slider-ken-burns-effect{0%{transform:scale(1);transform-origin:center center}to{transform:scale(1.1)}}
+html.mindscape-theme .swiper-container-coverflow{padding:18px 0}
+html.mindscape-theme .kubio-slider-play-effect button{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+html.mindscape-theme .kubio-slider-play-effect button[disabled]{pointer-events:none}
+html.mindscape-theme .kubio-slider-play-effect .h-control-notice{margin-top:10px}
+html.mindscape-theme .wp-block-kubio-carousel{position:relative}
+html.mindscape-theme [data-kubio] .wp-block-kubio-carousel{max-width:100%!important}
+html.mindscape-theme .wp-block-kubio-carousel__container{display:flex;width:100%}
 html.mindscape-theme .wp-block-kubio-carousel__outer{padding-left:0;padding-right:0}
 html.mindscape-theme .wp-block-kubio-carousel .swiper-wrapper{align-items:stretch!important}
-html.mindscape-theme .wp-block-kubio-carousel-content{display:flex;height:-webkit-max-content!important;height:-moz-max-content!important;height:max-content!important;height:100%;width:100%}
-html.mindscape-theme .wp-block-kubio-carousel-content .swiper-wrapper{height:auto}
-html.mindscape-theme .wp-block-kubio-carousel-content__outer{height:100%!important;padding:0}
-html.mindscape-theme .wp-block-kubio-carousel-content__inner{flex-wrap:nowrap;margin:0}
+html.mindscape-theme .wp-block-kubio-slider-content{display:flex;height:-webkit-max-content!important;height:-moz-max-content!important;height:max-content!important;width:100%}
+html.mindscape-theme .wp-block-kubio-slider-content .swiper-wrapper{height:auto}
+html.mindscape-theme .wp-block-kubio-slider-content__outer{height:100%!important;padding:0}
+html.mindscape-theme .wp-block-kubio-slider-content__inner{flex-wrap:nowrap;margin:0}
 html.mindscape-theme .wp-block-kubio-carousel-item__inner{word-wrap:break-word;height:100%!important;width:100%}
 html.mindscape-theme .wp-block-kubio-carousel-item__align{width:100%}
 html.mindscape-theme body:not(.editor-styles-wrapper) .wp-block-kubio-carousel-item .h-column__content .h-x-container .wp-block-kubio-buttongroup__spacing>:last-child,
 html.mindscape-theme body:not(.editor-styles-wrapper) .wp-block-kubio-carousel-item .h-column__content .h-x-container>:last-child,
 html.mindscape-theme body:not(.editor-styles-wrapper) .wp-block-kubio-carousel-item .h-x-container-inner{margin-bottom:0}
 html.mindscape-theme .wp-block-kubio-carousel-item.is-selected{visibility:visible}
-html.mindscape-theme .ken-burns-effect .swiper-slide-active .wp-block-kubio-carousel-item__inner>.background-wrapper>.background-layer .forceBackgroundLayer{-webkit-animation:slider-ken-burns-effect 10s ease infinite alternate;animation:slider-ken-burns-effect 10s ease infinite alternate;background-attachment:scroll;background-position:50%;background-repeat:no-repeat;background-size:cover}
-html.mindscape-theme .wp-block-kubio-mediaslider{max-width:100%!important;position:relative}
-html.mindscape-theme .wp-block-kubio-mediaslider__container{display:flex;flex-direction:column;width:100%}
-html.mindscape-theme .wp-block-kubio-mediaslider .swiper-wrapper{align-items:stretch!important}
-html.mindscape-theme .wp-block-kubio-mediaslider-content{display:flex;height:100%;width:100%}
-html.mindscape-theme .wp-block-kubio-mediaslider-content__outer{padding:0}
-html.mindscape-theme .wp-block-kubio-mediaslider-content__inner{flex-wrap:nowrap;margin:0}
-html.mindscape-theme .wp-block-kubio-mediaslider-item__inner{word-wrap:break-word;height:100%!important;width:100%}
-html.mindscape-theme .wp-block-kubio-mediaslider-item__align{width:100%}
-html.mindscape-theme body:not(.editor-styles-wrapper) .wp-block-kubio-mediaslider-item .h-column__content .h-x-container .wp-block-kubio-buttongroup__spacing>:last-child,
-html.mindscape-theme body:not(.editor-styles-wrapper) .wp-block-kubio-mediaslider-item .h-column__content .h-x-container>:last-child,
-html.mindscape-theme body:not(.editor-styles-wrapper) .wp-block-kubio-mediaslider-item .h-x-container-inner{margin-bottom:0}
-html.mindscape-theme .wp-block-kubio-mediaslider-item.is-selected{visibility:visible}
-html.mindscape-theme .ken-burns-effect .swiper-slide-active .wp-block-kubio-mediaslider-item__inner>.background-wrapper>.background-layer .forceBackgroundLayer{-webkit-animation:slider-ken-burns-effect 10s ease infinite alternate;animation:slider-ken-burns-effect 10s ease infinite alternate;background-attachment:scroll;background-position:50%;background-repeat:no-repeat;background-size:cover}
-html.mindscape-theme .swiper-container-coverflow{padding:18px 0}
-html.mindscape-theme .kubio-slider-play-effect button{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-html.mindscape-theme .kubio-slider-play-effect button[disabled]{pointer-events:none}
-html.mindscape-theme .kubio-slider-play-effect .h-control-notice{margin-top:10px}
-html.mindscape-theme .wp-block-kubio-mediacarousel{max-width:100%!important;position:relative}
-html.mindscape-theme .wp-block-kubio-mediacarousel__container{display:flex;flex-direction:column;width:100%}
-html.mindscape-theme .wp-block-kubio-mediacarousel__outer{padding-left:0;padding-right:0}
-html.mindscape-theme .wp-block-kubio-mediacarousel__item-fit_cover img.swiper-slide-media{-o-object-fit:cover;object-fit:cover}
-html.mindscape-theme .wp-block-kubio-mediacarousel__item-fit_contain img.swiper-slide-media{height:auto!important;width:100%!important}
-html.mindscape-theme .wp-block-kubio-mediacarousel__item-fit_auto img.swiper-slide-media{-o-object-fit:none;object-fit:none}
-html.mindscape-theme .wp-block-kubio-mediacarousel .swiper-wrapper{align-items:stretch!important}
-html.mindscape-theme .wp-block-kubio-mediacarousel-content{display:flex;height:100%;width:100%}
-html.mindscape-theme .wp-block-kubio-mediacarousel-content .swiper-wrapper{height:auto}
-html.mindscape-theme .wp-block-kubio-mediacarousel-content__outer{padding:0}
-html.mindscape-theme .wp-block-kubio-mediacarousel-content__inner{flex-wrap:nowrap;margin:0}
-html.mindscape-theme .wp-block-kubio-mediacarousel-item__inner{word-wrap:break-word;height:100%!important;width:100%}
-html.mindscape-theme .wp-block-kubio-mediacarousel-item__align{width:100%}
-html.mindscape-theme body:not(.editor-styles-wrapper) .wp-block-kubio-mediacarousel-item .h-column__content .h-x-container .wp-block-kubio-buttongroup__spacing>:last-child,
-html.mindscape-theme body:not(.editor-styles-wrapper) .wp-block-kubio-mediacarousel-item .h-column__content .h-x-container>:last-child,
-html.mindscape-theme body:not(.editor-styles-wrapper) .wp-block-kubio-mediacarousel-item .h-x-container-inner{margin-bottom:0}
-html.mindscape-theme .wp-block-kubio-mediacarousel-item.is-selected{visibility:visible}
 html.mindscape-theme .wp-block-kubio-slider-arrow.wp-block.position-relative[data-kubio],
 html.mindscape-theme .wp-block-kubio-slider-arrow[data-kubio]{margin:0}
 html.mindscape-theme .wp-block-kubio-slider-arrow__outer{bottom:0;display:flex;left:0;pointer-events:none;position:absolute!important;right:0;top:0;z-index:100}
@@ -2683,101 +2501,151 @@ html.mindscape-theme .wp-block-kubio-slider-arrow__inner span{cursor:pointer}
 html.mindscape-theme .wp-block-kubio-slider-dots[data-kubio]{margin:0}
 html.mindscape-theme .wp-block-kubio-slider-dots__inner{display:flex}
 html.mindscape-theme .wp-block-kubio-slider-dots__outer{bottom:0;display:flex;left:0;pointer-events:none;position:absolute!important;right:0;top:0;z-index:300}
-html.mindscape-theme .wp-block-kubio-slider-dots__outer .swiper-pagination{bottom:0;flex-basis:0;position:relative;text-align:center;z-index:300}
+html.mindscape-theme .wp-block-kubio-slider-dots__outer .swiper-pagination{bottom:0;position:relative;text-align:center;z-index:300}
 html.mindscape-theme .wp-block-kubio-slider-dots__outer .swiper-pagination .swiper-pagination-bullet{background-color:#333;background-image:none;border-radius:100%;cursor:pointer;display:inline-block;height:10px;margin:0 4px;pointer-events:auto;width:10px}
 html.mindscape-theme .swiper-container:not(.swiper-container-cube) .swiper-cube-shadow{display:none!important}
 html.mindscape-theme .swiper-container.swiper-container-coverflow{perspective:1200px}
 html.mindscape-theme .swiper-container.swiper-container-coverflow .swiper-slide-shadow-left,
 html.mindscape-theme .swiper-container.swiper-container-coverflow .swiper-slide-shadow-right{opacity:0!important}
-html.mindscape-theme .ken-burns-effect .swiper-slide-active .wp-block-kubio-mediacarousel-item__inner>.background-wrapper>.background-layer .forceBackgroundLayer{-webkit-animation:slider-ken-burns-effect 10s ease infinite alternate;animation:slider-ken-burns-effect 10s ease infinite alternate;background-attachment:scroll;background-position:50%;background-repeat:no-repeat;background-size:cover}
-html.mindscape-theme .wp-block-kubio-mediaslider-content__outer a,
-html.mindscape-theme .wp-block-kubio-mediaslider-content__outer iframe,
-html.mindscape-theme .wp-block-kubio-mediaslider-content__outer img,
-html.mindscape-theme .wp-block-kubio-mediaslider-content__outer video{height:100%!important;width:100%!important}
-html.mindscape-theme .wp-block-kubio-mediaslider-item__slide{display:flex;flex-direction:column;justify-content:center}
-html.mindscape-theme .wp-block-kubio-mediaslider-item__slide.caption-position{text-align:center}
-html.mindscape-theme .wp-block-kubio-mediaslider-item__slide.caption-position--over_on_hover figcaption,
-html.mindscape-theme .wp-block-kubio-mediaslider-item__slide.caption-position--over figcaption{left:0;position:absolute;right:0;top:50%;z-index:100}
-html.mindscape-theme .wp-block-kubio-mediaslider-item__slide.caption-position--below figcaption{bottom:0;display:block;position:relative}
-html.mindscape-theme .wp-block-kubio-mediaslider-item__slide.caption-position--over_on_hover figcaption{opacity:0;transition-property:opacity}
-html.mindscape-theme .wp-block-kubio-mediaslider-item__slide.caption-position--over_on_hover:hover figcaption{opacity:1}
-html.mindscape-theme .wp-block-kubio-mediaslider-item__slide.caption--start figcaption{bottom:auto;padding-top:inherit;top:0}
-html.mindscape-theme .wp-block-kubio-mediaslider-item__slide.caption--center:not(.caption-position--below) figcaption{top:50%;transform:translateY(-50%)}
-html.mindscape-theme .wp-block-kubio-mediaslider-item__slide.caption--end figcaption{bottom:0;padding-bottom:inherit;top:auto}
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails{overflow:hidden}
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails.no-height{height:0!important}
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails .thumbnail,
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails__thumbnail-wrapper{overflow:hidden}
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails .thumbnail .thumbnail-aspect-ration{height:0!important;position:relative}
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails .thumbnail .thumbnail-aspect-ration .thumbnail-media{bottom:0;cursor:pointer;height:100%;left:0;-o-object-fit:cover;object-fit:cover;pointer-events:none;position:absolute;right:0;top:0;width:100%}
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails .thumbnail .thumbnail-aspect-ration svg{background-color:#efefef;bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails .thumbnail .h-aspect-ratio{padding:0!important}
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails .thumbnail .h-aspect-ratio--16-9{padding-top:56.25%!important}
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails .thumbnail .h-aspect-ratio--4-3{padding-top:75%!important}
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails .thumbnail .h-aspect-ratio--1-1{padding-top:100%!important}
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails .thumbnail .h-aspect-ratio--21-9{padding-top:42.857142%}
-html.mindscape-theme .wp-block-kubio-mediaslider-thumbnails .with-overlay .thumbnail:before{content:"";height:100%;position:absolute;width:100%;z-index:10}
-html.mindscape-theme .wp-block-kubio-mediaslider .slider--arrow-inner,
-html.mindscape-theme .wp-block-kubio-mediaslider .wp-block-kubio-slider-dots{margin-bottom:var(--kubio-slider-controls-offset,0)!important}
-html.mindscape-theme .wp-block-kubio-advanced-gallery{display:flex;flex-direction:column}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__categories-container{display:flex;flex:1;flex-wrap:wrap;gap:5px;list-style:none;padding:0}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__categories-container:empty{margin:0}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__categories-container.categories-container_full{flex-direction:column}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__categories-container.categories-container_full li,
-html.mindscape-theme .wp-block-kubio-advanced-gallery__categories-container.categories-container_stretch li{flex:1}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__categories-container:after,
-html.mindscape-theme .wp-block-kubio-advanced-gallery__categories-container:before{display:none!important}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__categories-container li{background-color:#60abe5;border-radius:10px;padding:10px 30px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__categories-container li[data-active=true]{background-color:#3f729b;color:#fff}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__categories-container li:hover{background-color:#3f729b;color:#fff;cursor:pointer}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__gallery{display:flex;flex-flow:wrap;max-width:100%;transition:all .4s}
-html.mindscape-theme .wp-block-kubio-advanced-gallery-item{display:block;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content}
-html.mindscape-theme .wp-block-kubio-advanced-gallery-item__video{display:block}
-html.mindscape-theme .wp-block-kubio-advanced-gallery-item__image-overlay{align-items:center;bottom:0;display:flex;justify-content:center;left:0;position:absolute!important;right:0;top:0;z-index:99}
-html.mindscape-theme .wp-block-kubio-advanced-gallery-item__image-overlay .overlay-icon{display:none;height:50px;width:50px}
-html.mindscape-theme .wp-block-kubio-advanced-gallery-item__image-overlay:hover .overlay-icon{display:block}
-html.mindscape-theme .wp-block-kubio-advanced-gallery-item__image-caption-wrapper{position:relative}
-html.mindscape-theme .wp-block-kubio-advanced-gallery-item__caption:empty{display:none}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .image-gallery-grid-item{margin:0;opacity:1;overflow:hidden;text-align:center;transition:all .5s}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .image-gallery-grid-item a{display:block}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .image-gallery-grid-item img{display:block;width:100%}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .image-gallery-grid-item.hidden-item{opacity:0;transform:scale3d(0,0,0)}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__item-container{display:flex;flex-direction:column}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__item-container:hover .caption-over-on-hover,
-html.mindscape-theme .wp-block-kubio-advanced-gallery__item-container:hover .hover-overlay{opacity:1}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__overlay{height:100%;opacity:0;position:absolute;width:100%;z-index:5}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__caption-container{display:flex;height:100%;position:absolute;width:100%}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__caption{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:100%;z-index:10}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__caption.caption-over-on-hover{opacity:0}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__load-more-container{display:flex;margin:15px 0;transition:transform .3s,opacity .3s}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__load-more-container.hidden-button{opacity:0;transform:scale3d(0,0,0)}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__load-more-button{background-color:#3f729b;border:0;border-radius:10px;color:#fff;opacity:1;padding:10px 30px;transition:all;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-html.mindscape-theme .wp-block-kubio-advanced-gallery__load-more-button:hover{cursor:pointer}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--blur figure:hover :where(img,video){filter:blur(5px)}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--zoom figure{overflow:hidden}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--zoom :where(img,video){transition:transform .5s ease}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--zoom figure:hover :where(img,video,.item-overlay){transform:scale(1.1)}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--fadeIn :where(img,video){opacity:.7}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--fadeIn figure:hover :where(img,video){opacity:1}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--fadeOut :where(img,video){opacity:1}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--fadeOut figure:hover :where(img,video){opacity:.7}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--glow figure:hover :where(img,video){filter:brightness(1.3)}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--color :where(img,video){filter:grayscale(100%)}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--color figure:hover :where(img,video){filter:grayscale(0)}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--grayscale :where(img,video){filter:grayscale(0)}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .hover-effect--grayscale figure:hover :where(img,video){filter:grayscale(100%)}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .caption-position{text-align:center}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .caption-position--over_on_hover figcaption,
-html.mindscape-theme .wp-block-kubio-advanced-gallery .caption-position--over figcaption{left:0;position:absolute;right:0;top:50%;z-index:100}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .caption-position--below figcaption{bottom:0;position:relative}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .caption-position--over_on_hover figcaption{opacity:0;transition-property:opacity}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .caption-position--over_on_hover figure:hover figcaption{opacity:1}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .caption--start figcaption{bottom:auto;padding-top:inherit;top:0}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .caption--center:not(.caption-position--below) figcaption{top:50%;transform:translateY(-50%)}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .caption--end figcaption{bottom:0;padding-bottom:inherit;top:auto}
-html.mindscape-theme .wp-block-kubio-advanced-gallery .components-placeholder{font:initial!important;font-style:normal;font-weight:400;letter-spacing:normal;text-decoration:none;text-transform:none}
-html.mindscape-theme .wp-block-kubio-blob{display:flex;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;width:100%}
-html.mindscape-theme .wp-block-kubio-blob__svg{display:block;height:0;width:0}
+html.mindscape-theme .ken-burns-effect .swiper-slide-active .wp-block-kubio-carousel-item__inner>.background-wrapper>.background-layer .forceBackgroundLayer{-webkit-animation:slider-ken-burns-effect 10s ease infinite alternate;animation:slider-ken-burns-effect 10s ease infinite alternate;background-attachment:scroll;background-position:50%;background-repeat:no-repeat;background-size:cover}
+html.mindscape-theme .breadcrumb-items__wrapper{display:flex}
+html.mindscape-theme .breadcrumb-items__wrapper .breadcrumb-items__prefix{align-items:center;display:inline-flex}
+html.mindscape-theme .breadcrumb-items__wrapper .kubio-breadcrumb{align-items:center;display:inline-flex;flex-wrap:wrap;list-style:none;margin:0;padding:0}
+html.mindscape-theme .breadcrumb-items__wrapper .kubio-breadcrumb>li{align-items:center;display:inline-flex;margin:0;vertical-align:middle}
+html.mindscape-theme .breadcrumb-items__wrapper .kubio-breadcrumb>li+li:before{color:#ccc;content:"/ ";padding:0 5px}
+html.mindscape-theme .breadcrumb-items__wrapper .kubio-breadcrumb>li a{display:inline-flex;line-height:1em!important}
+html.mindscape-theme .breadcrumb-items__wrapper .kubio-breadcrumb>li svg{fill:currentColor;color:currentColor}
+html.mindscape-theme .breadcrumb-items__wrapper .kubio-breadcrumb>li:last-child span{line-height:1em}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline .mc4wp-form-fields{display:inline-flex;display:inline-grid;flex-wrap:wrap;grid-template-columns:auto auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline .mc4wp-form-fields input:not([type=file]):not([type=radio]):not([type=checkbox]):not([type=submit]){width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline .mc4wp-form-fields .kubio-newsletter__email-group{align-items:center;flex:1 1 auto;flex-direction:row;justify-content:flex-start}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline .mc4wp-form-fields .kubio-newsletter__agree-terms-group{flex:0 1 100%;grid-column:1/span 2;grid-row:2}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline .mc4wp-form-fields .kubio-newsletter__submit-group{flex:0 1 auto;grid-column:2/span 1;grid-row:1}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline.kubio-newsletter-email--auto .mc4wp-form-fields{grid-template-columns:1fr auto;width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline.kubio-newsletter-email--auto .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:100%!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline.kubio-newsletter-email--custom .mc4wp-form-fields{grid-template-columns:auto auto;width:auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline.kubio-newsletter-email--custom .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:unset!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto,
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto form{width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom,
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom form{width:auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below .mc4wp-form-fields{display:block}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below .mc4wp-form-fields .kubio-newsletter__email-group{align-items:flex-start;flex-direction:column;justify-content:center}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below .mc4wp-form-fields .kubio-newsletter__agree-terms-group,
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below .mc4wp-form-fields .kubio-newsletter__submit-group{grid-column:unset;grid-row:unset}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below.kubio-newsletter-email--auto .kubio-newsletter__email-group input{min-width:100%!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below.kubio-newsletter-email--custom .kubio-newsletter__email-group input{min-width:unset!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-start [type=submit]{margin-left:0!important;margin-right:auto!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--center [type=submit]{margin-left:auto!important;margin-right:auto!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-end [type=submit]{margin-left:auto!important;margin-right:0!important}@media (min-width:576px){
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm .mc4wp-form-fields{display:inline-flex;display:inline-grid;flex-wrap:wrap;grid-template-columns:auto auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm .mc4wp-form-fields input:not([type=file]):not([type=radio]):not([type=checkbox]):not([type=submit]){width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm .mc4wp-form-fields .kubio-newsletter__email-group{align-items:center;flex:1 1 auto;flex-direction:row;justify-content:flex-start}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm .mc4wp-form-fields .kubio-newsletter__agree-terms-group{flex:0 1 100%;grid-column:1/span 2;grid-row:2}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm .mc4wp-form-fields .kubio-newsletter__submit-group{flex:0 1 auto;grid-column:2/span 1;grid-row:1}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm.kubio-newsletter-email--auto-sm .mc4wp-form-fields{grid-template-columns:1fr auto;width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm.kubio-newsletter-email--auto-sm .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:100%!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm.kubio-newsletter-email--custom-sm .mc4wp-form-fields{grid-template-columns:auto auto;width:auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-sm.kubio-newsletter-email--custom-sm .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:unset!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-sm,
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-sm form{width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-sm,
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-sm form{width:auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-sm .mc4wp-form-fields{display:block}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-sm .mc4wp-form-fields .kubio-newsletter__email-group{align-items:flex-start;flex-direction:column;justify-content:center}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-sm .mc4wp-form-fields .kubio-newsletter__agree-terms-group,
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-sm .mc4wp-form-fields .kubio-newsletter__submit-group{grid-column:unset;grid-row:unset}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-sm.kubio-newsletter-email--auto-sm .kubio-newsletter__email-group input{min-width:100%!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-sm.kubio-newsletter-email--custom-sm .kubio-newsletter__email-group input{min-width:unset!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-start-sm [type=submit]{margin-left:0!important;margin-right:auto!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--center-sm [type=submit]{margin-left:auto!important;margin-right:auto!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-end-sm [type=submit]{margin-left:auto!important;margin-right:0!important}}@media (min-width:768px){
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md .mc4wp-form-fields{display:inline-flex;display:inline-grid;flex-wrap:wrap;grid-template-columns:auto auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md .mc4wp-form-fields input:not([type=file]):not([type=radio]):not([type=checkbox]):not([type=submit]){width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md .mc4wp-form-fields .kubio-newsletter__email-group{align-items:center;flex:1 1 auto;flex-direction:row;justify-content:flex-start}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md .mc4wp-form-fields .kubio-newsletter__agree-terms-group{flex:0 1 100%;grid-column:1/span 2;grid-row:2}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md .mc4wp-form-fields .kubio-newsletter__submit-group{flex:0 1 auto;grid-column:2/span 1;grid-row:1}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md.kubio-newsletter-email--auto-md .mc4wp-form-fields{grid-template-columns:1fr auto;width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md.kubio-newsletter-email--auto-md .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:100%!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md.kubio-newsletter-email--custom-md .mc4wp-form-fields{grid-template-columns:auto auto;width:auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-md.kubio-newsletter-email--custom-md .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:unset!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-md,
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-md form{width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-md,
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-md form{width:auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-md .mc4wp-form-fields{display:block}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-md .mc4wp-form-fields .kubio-newsletter__email-group{align-items:flex-start;flex-direction:column;justify-content:center}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-md .mc4wp-form-fields .kubio-newsletter__agree-terms-group,
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-md .mc4wp-form-fields .kubio-newsletter__submit-group{grid-column:unset;grid-row:unset}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-md.kubio-newsletter-email--auto-md .kubio-newsletter__email-group input{min-width:100%!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-md.kubio-newsletter-email--custom-md .kubio-newsletter__email-group input{min-width:unset!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-start-md [type=submit]{margin-left:0!important;margin-right:auto!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--center-md [type=submit]{margin-left:auto!important;margin-right:auto!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-end-md [type=submit]{margin-left:auto!important;margin-right:0!important}}@media (min-width:1024px){
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg .mc4wp-form-fields{display:inline-flex;display:inline-grid;flex-wrap:wrap;grid-template-columns:auto auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg .mc4wp-form-fields input:not([type=file]):not([type=radio]):not([type=checkbox]):not([type=submit]){width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg .mc4wp-form-fields .kubio-newsletter__email-group{align-items:center;flex:1 1 auto;flex-direction:row;justify-content:flex-start}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg .mc4wp-form-fields .kubio-newsletter__agree-terms-group{flex:0 1 100%;grid-column:1/span 2;grid-row:2}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg .mc4wp-form-fields .kubio-newsletter__submit-group{flex:0 1 auto;grid-column:2/span 1;grid-row:1}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg.kubio-newsletter-email--auto-lg .mc4wp-form-fields{grid-template-columns:1fr auto;width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg.kubio-newsletter-email--auto-lg .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:100%!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg.kubio-newsletter-email--custom-lg .mc4wp-form-fields{grid-template-columns:auto auto;width:auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-lg.kubio-newsletter-email--custom-lg .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:unset!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-lg,
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-lg form{width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-lg,
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-lg form{width:auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-lg .mc4wp-form-fields{display:block}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-lg .mc4wp-form-fields .kubio-newsletter__email-group{align-items:flex-start;flex-direction:column;justify-content:center}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-lg .mc4wp-form-fields .kubio-newsletter__agree-terms-group,
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-lg .mc4wp-form-fields .kubio-newsletter__submit-group{grid-column:unset;grid-row:unset}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-lg.kubio-newsletter-email--auto-lg .kubio-newsletter__email-group input{min-width:100%!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-lg.kubio-newsletter-email--custom-lg .kubio-newsletter__email-group input{min-width:unset!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-start-lg [type=submit]{margin-left:0!important;margin-right:auto!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--center-lg [type=submit]{margin-left:auto!important;margin-right:auto!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-end-lg [type=submit]{margin-left:auto!important;margin-right:0!important}}@media (min-width:1200px){
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl .mc4wp-form-fields{display:inline-flex;display:inline-grid;flex-wrap:wrap;grid-template-columns:auto auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl .mc4wp-form-fields input:not([type=file]):not([type=radio]):not([type=checkbox]):not([type=submit]){width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl .mc4wp-form-fields .kubio-newsletter__email-group{align-items:center;flex:1 1 auto;flex-direction:row;justify-content:flex-start}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl .mc4wp-form-fields .kubio-newsletter__agree-terms-group{flex:0 1 100%;grid-column:1/span 2;grid-row:2}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl .mc4wp-form-fields .kubio-newsletter__submit-group{flex:0 1 auto;grid-column:2/span 1;grid-row:1}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl.kubio-newsletter-email--auto-xl .mc4wp-form-fields{grid-template-columns:1fr auto;width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl.kubio-newsletter-email--auto-xl .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:100%!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl.kubio-newsletter-email--custom-xl .mc4wp-form-fields{grid-template-columns:auto auto;width:auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--inline-xl.kubio-newsletter-email--custom-xl .mc4wp-form-fields .kubio-newsletter__email-group input{min-width:unset!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-xl,
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--auto-xl form{width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-xl,
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter-email--custom-xl form{width:auto}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-xl .mc4wp-form-fields{display:block}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-xl .mc4wp-form-fields .kubio-newsletter__email-group{align-items:flex-start;flex-direction:column;justify-content:center}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-xl .mc4wp-form-fields .kubio-newsletter__agree-terms-group,
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-xl .mc4wp-form-fields .kubio-newsletter__submit-group{grid-column:unset;grid-row:unset}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-xl.kubio-newsletter-email--auto-xl .kubio-newsletter__email-group input{min-width:100%!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .submit-button--below-xl.kubio-newsletter-email--custom-xl .kubio-newsletter__email-group input{min-width:unset!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-start-xl [type=submit]{margin-left:0!important;margin-right:auto!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--center-xl [type=submit]{margin-left:auto!important;margin-right:auto!important}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter--shortcode-layout.submit-button-align--flex-end-xl [type=submit]{margin-left:auto!important;margin-right:0!important}}
+html.mindscape-theme .wp-block-kubio-subscribe-form .h-block-placeholder{font-style:normal;font-weight:400;letter-spacing:normal;text-decoration:none;text-transform:none}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container{overflow:visible}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form{display:inline-block;margin:0;max-width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form input{line-height:normal;max-width:100%;outline:none}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form input[type=checkbox],
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form input[type=radio]{bottom:0}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form [type=submit]{border-color:transparent}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form input:focus{box-shadow:none}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form .mc4wp-form-fields>*{align-items:center;display:flex;justify-content:space-between}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form .mc4wp-form-fields>p{margin:0}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__agree-terms-group{justify-content:flex-start}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__agree-terms-group input[type=checkbox]{height:16px;margin:0 5px 0 0;width:16px}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__email-group{display:flex;flex:1}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__email-group label{white-space:nowrap}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__submit-group button{align-items:center;display:inline-flex}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__submit-group button .kubio-newsletter__submit-text{order:2}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form .kubio-newsletter__submit-group button svg{height:100%;width:100%}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container form .mc4wp-alert p{margin-bottom:0}
+html.mindscape-theme .wp-block-kubio-subscribe-form__container.submit_icon_position-after .kubio-newsletter__submit-group button[type=submit]{align-items:center;display:flex;flex-direction:row}
+html.mindscape-theme .wp-block-kubio-subscribe-form .kubio-newsletter__agree-terms-group p{color:inherit!important;font-family:inherit!important;font-size:inherit!important;font-style:inherit!important;font-weight:inherit!important;letter-spacing:inherit!important;line-height:inherit!important;text-decoration:inherit!important;text-transform:inherit!important}
 html.mindscape-theme #end-resizable-kubio-section{display:none}@media screen and (max-width:600px){
 html.mindscape-theme #wpadminbar{position:fixed}}
 html.mindscape-theme .mindscape-front-header__k__9IGHpldIpw-container{align-items:center}

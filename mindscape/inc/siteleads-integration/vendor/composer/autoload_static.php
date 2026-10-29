@@ -4,39 +4,32 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitefb7e456d2d09844ea16e354e9278e77
+class ComposerStaticInitde2ae7901e7e61814959db961668d35b
 {
     public static $prefixLengthsPsr4 = array (
-        'M' => 
+        'M' =>
         array (
             'MindscapeTheme\\SiteLeadsThemeKit\\' => 33,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'MindscapeTheme\\SiteLeadsThemeKit\\' => 
+        'MindscapeTheme\\SiteLeadsThemeKit\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static $classMap = array (
-        'MindscapeTheme\\SiteLeadsThemeKit\\Bootstrap' => __DIR__ . '/../..' . '/src/Bootstrap.php',
-        'MindscapeTheme\\SiteLeadsThemeKit\\Customizer\\Controls\\SiteLeadsIntegrationButton' => __DIR__ . '/../..' . '/src/Customizer/Controls/SiteLeadsIntegrationButton.php',
-        'MindscapeTheme\\SiteLeadsThemeKit\\Customizer\\Sections\\SiteLeadsSection' => __DIR__ . '/../..' . '/src/Customizer/Sections/SiteLeadsSection.php',
-        'MindscapeTheme\\SiteLeadsThemeKit\\Flags' => __DIR__ . '/../..' . '/src/Flags.php',
-        'MindscapeTheme\\SiteLeadsThemeKit\\Hooks' => __DIR__ . '/../..' . '/src/Hooks.php',
-        'MindscapeTheme\\SiteLeadsThemeKit\\Singleton' => __DIR__ . '/../..' . '/src/Singleton.php',
-        'MindscapeTheme\\SiteLeadsThemeKit\\SiteLeads' => __DIR__ . '/../..' . '/src/SiteLeads.php',
-        'MindscapeTheme\\SiteLeadsThemeKit\\Theme' => __DIR__ . '/../..' . '/src/Theme.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitefb7e456d2d09844ea16e354e9278e77::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitefb7e456d2d09844ea16e354e9278e77::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitefb7e456d2d09844ea16e354e9278e77::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitde2ae7901e7e61814959db961668d35b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitde2ae7901e7e61814959db961668d35b::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitde2ae7901e7e61814959db961668d35b::$classMap;
 
         }, null, ClassLoader::class);
     }
